@@ -1,0 +1,68 @@
+INTEL YAZILIM LÝSANS SÖZLEÞMESÝ (OEM / IHV / ISV Daðýtýmý ve Tek Kullanýcý)
+
+ÖNEMLÝ - KOPYALAMADAN, YÜKLEMEDEN VEYA KULLANMADAN ÖNCE OKUYUN. 
+Aþaðýdaki koþullarý ve hükümleri dikkatle okumadan önce, bu yazýlýmý ve iliþkili malzemelerini (toplu þekilde, "Yazýlým" olarak anýlacaktýr) kullanmayýn veya yüklemeyin. Yazýlým'ý yüklemeniz ya da kullanmanýz, bu Sözleþme'nin koþullarýný kabul ettiðiniz anlamýna gelir. Koþullarý bu þekilde kabul etmek istemiyorsanýz, Yazýlým'ý yüklemeyin ya da kullanmayýn.
+
+Lütfen Aþaðýdakileri Dikkate Alýn:
+* Özgün Donatým Üreticisi (OEM), Baðýmsýz Donaným Satýcýsý (IHV) ya da Baðýmsýz Yazýlým Satýcýsý (ISV) olmanýz durumunda, bu LÝSANS SÖZLEÞMESÝ tamamýyla geçerlidir;
+* Son kullanýcý olmanýz durumunda, Ek A'da yer alan INTEL YAZILIM LÝSANS SÖZLEÞMESÝ geçerlidir.
+
+OEM'ler, IHV'ler ve ISV'ler için:
+
+LÝSANS. Bu Yazýlým'a, yalnýzca Intel bileþen ürünleriyle birlikte kullanýlmak üzere lisans verilmiþtir.  Ýþbu Yazýlým'a, Intel olmayan bileþen ürünleriyle birlikte kullanýlmak üzere lisans verilmemiþtir. Bu Sözleþme'nin koþullarý uyarýnca, Intel, tarafýnýza, Intel'in telif haklarý çerçevesinde, aþaðýdakileri gerçekleþtirmenizi saðlayan özel olmayan, devredilemeyen, tüm dünyada geçerli olan ve bedeli tamamýyla ödenmiþ lisansýný vermektedir:
+     a) tarafýnýzýn geliþtirme ve bakým amaçlarý doðrultusunda, Yazýlým'ý dahili olarak kullanma, üzerinde deðiþiklik yapma, kopyalama ve
+     b) Yazýlým'ýn türevi olan çalýþmalar da dahil olmak üzere, Yazýlým'ý deðiþtirme, kopyalama ve Son Kullanýcýlarýnýza daðýtma; ancak, bu iþlemler, en azýndan Ek A olarak ekli bulunan Intel Nihai, Tek Kullanýcý Lisans Sözleþmesi'nde yer alan koþullar kadar kýsýtlayýcý koþullara sahip bir lisans sözleþmesi çerçevesinde gerçekleþtirilmelidir ve
+     c) Yazýlým ile birlikte verilen son kullanýcý belgelerini, yalnýzca Yazýlým ile baðlantýlý olarak deðiþtirme, kopyalama ve daðýtma.
+
+Yazýlým'ý içeren bilgisayar sisteminin veya yazýlým programýnýn nihai üreticisi veya satýcýsý siz deðilseniz, bu durumda, Yazýlým'ýn türevi olan çalýþmalar (ve ilgili son kullanýcý belgeleri) dahil olmak üzere, Yazýlým'ýn bir kopyasýný, devralan kiþinin iþbu hükümlere tamamýyla tabi olmasý koþuluyla, devralan kiþiye bu Sözleþme koþullarýna uygun þekilde kullanýlmak üzere devredebilirsiniz. Aksi halde, Yazýlým'ý herhangi bir üçüncü þahýsa atayamaz, lisansýný veremez, kiralayamaz veya baþka þekilde devredemez ya da sunamazsýnýz. Yazýlým'ý kaynak koda dönüþtüremez, tersine çeviremez veya baþka hiçbir þekilde ters mühendislik iþlemi uygulayamazsýnýz.
+
+Bu Sözleþme'de açýkça belirtilen haller dýþýnda, tarafýnýza doðrudan veya zýmni olarak, ikna veya hukuki mani yoluyla ya da diðer biçimlerde hiçbir lisans ya da hak verilmemektedir. Intel, bu Sözleþme'da yer alan koþul ve hükümlere riayet ettiðinizi teyit etmek üzere, ilgili kayýtlarýnýzý tetkik etme ya da baðýmsýz bir denetçinin tetkik etmesini saðlama hakkýna sahiptir.
+
+GÝZLÝLÝK. Yazýlým'a eriþim veya kullanýmý içeren iþinizi tarafýnýz adýna yapmasý için üçüncü þahýs danýþman veya ikinci üstlenici ("Üstlenici") atamak istiyorsanýz, Üstlenici'den, bu Sözleþme'de öne sürülenlerden daha az kýsýtlayýcý olmayan ve daðýtým haklarýný ve baþka bir amaç doðrultusunda kullanýmý hariç tutan ve Yazýlým'a eriþim ve kullanýmýna iliþkin olarak koþullar ve yükümlülükler içeren, yazýlý bir gizlilik anlaþmasý temin etmeniz gerekir.
+Aksi halde, bu Sözleþme'nin koþullarýný veya varlýðýný açýklayamaz ya da Intel'in önceden yazýlý onayý olmaksýzýn, Intel'in adýný hiçbir yayýn organý, reklam veya baþka duyurularda kullanamazsýnýz. Intel ticari markalarýný ya da amblemlerini kullanmak konusunda hiçbir hakkýnýz yoktur.
+
+YAZILIM VE TELÝF HAKLARININ MÜLKÝYETÝ. Tüm Yazýlým kopyalarýnýn mülkiyeti Intel ya da tedarikçilerine aittir. Yazýlým, telif hakkýna sahiptir ve Amerika Birleþik Devletleri ve diðer ülkelerin yasalarýyla ve uluslararasý anlaþmalarýn hükümleriyle korunmaktadýr. Yazýlým'dan herhangi bir telif hakký bildirimini çýkaramazsýnýz. Intel, istediði zaman ve önceden bildirimde bulunmaksýzýn, Yazýlým'da veya burada belirtilen maddelerde deðiþiklik yapabilir, ancak Yazýlým'ý desteklemek ya da güncelleþtirmek yükümlülüðünü taþýmaz. Aksinin açýkça belirtilmiþ olduðu haller dýþýnda, Intel, Intel patentleri, ticari markalarý ya da diðer fikri mülkiyet haklarý çerçevesinde hiçbir açýk ya da zýmni hak tanýmaz. Yazýlým'ý yalnýzca, devralan kiþinin bu koþullara tamamýyla tabi olmayý kabul etmesi ve Yazýlým'ýn hiçbir kopyasýný bulundurmamanýz durumunda devredebilirsiniz.
+SINIRLI ORTAM GARANTÝSÝ.  Yazýlým, Intel tarafýndan fiziksel ortam üzerinden gönderilmiþse, Intel, sözkonusu ortamýn, Intel tarafýndan teslim edilmesinden sonraki doksan (90) günlük süre içinde maddi fiziksel kusurlardan muaf olduðunu garanti eder. Bu tür bir kusur bulunursa, ortamý, deðiþtirilmek veya Yazýlým'ýn, Intel'in tercih edeceði baþka bir þekilde teslim edilmesini saðlamak üzere, Intel'e iade edin. 
+
+DÝÐER GARANTÝLERÝN HARÝÇ TUTULMASI. YUKARIDA ÞART KOÞULMASI DURUMU ÝSTÝSNA OLMAK ÜZERE, YAZILIM, SATILABÝLÝRLÝK, HÝÇBÝR TELÝF HAKKI ÝHLALÝNDE BULUNMAMA YA DA BELÝRLÝ BÝR AMACA UYGUNLUK GÝBÝ GARANTÝLER DE DAHÝL OLMAK ÜZERE, HERHANGÝ TÜRDEN AÇIK YA DA ZIMNÝ BÝR GARANTÝ OLMAKSIZIN "OLDUÐU GÝBÝ" SAÐLANMIÞTIR.  Intel, Yazýlým'a dahil olan bilgi, metin, grafik, baðlantýlar veya diðer öðelerin, doðruluðu ya da tamlýðý konusunda herhangi bir garanti vermez ya da bu öðelere iliþkin sorumluluk kabul etmez.
+
+SORUMLULUÐUN SINIRLANDIRILMASI. INTEL YA DA TEDARÝKÇÝLERÝ, SÖZ KONUSU ZARARLARIN OLASILIÐINDAN HABERDAR EDÝLMÝÞ OLSA DAHÝ, HÝÇBÝR SURETTE YAZILIM'IN KULLANIMINDAN YA DA KULLANILAMAMASINDAN KAYNAKLANAN HERHANGÝ BÝR ZARARDAN (KAR KAYBI, ÝÞÝN KESÝNTÝYE UÐRAMASI VE BÝLGÝ KAYBI DAHÝL OLMAK ÜZERE, ANCAK BUNLARLA SINIRLI KALMAMAK KAYDIYLA) SORUMLU OLMAYACAKTIR. BAZI HUKUK SÝSTEMLERÝNDE ZIMNÝ GARANTÝLER VEYA DOLAYLI YA DA DÝÐER ZARARLAR ÝÇÝN SORUMLULUÐUN HARÝÇ TUTULMASI YA DA SINIRLANDIRILMASI YASAKLANMIÞTIR; BU GÝBÝ DURUMLARDA, YUKARIDAKÝ SINIRLAMA TARAFINIZ ÝÇÝN GEÇERLÝ OLMAYABÝLÝR. AYRICA, HUKUK SÝSTEMLERÝNE GÖRE FARKLILIK GÖSTEREN DÝÐER YASAL HAKLARA DA SAHÝP OLABÝLÝRSÝNÝZ.
+
+BU SÖZLEÞME'NÝN SONA ERMESÝ. Intel, koþullarýný ihlal etmeniz halinde, bu Sözleþme'yi istediði zaman sona erdirebilir. Sözleþme'nin sona erdirilmesi halinde, Yazýlým'ý derhal imha etmeniz veya Yazýlým'ýn tüm kopyalarýný Intel'e iade etmeniz gerekir.
+
+ 
+GEÇERLÝ YASALAR. Bu Sözleþme çerçevesinde doðan talepler, kanunlar ihtilafýna iliþkin prensipleri ve Mal Satýþ Sözleþmeleri konusundaki Birleþmiþ Milletler Akdi hariç tutulmak üzere, California yasalarýna tabi olacaktýr. Yazýlým'ý, geçerli ihracat yasalarýna ve yönetmeliklerine aykýrý olarak ihraç edemezsiniz. Yazýlý olmamasý ve Intel'in yetkili bir temsilcisi tarafýndan imzalanmamasý durumunda, Intel, baþka hiçbir sözleþme çerçevesinde sorumlu tutulamaz.
+
+HÜKÜMET TARAFINDAN KISITLANMIÞ HAKLAR. Yazýlým, "KISITLANMIÞ HAKLAR" göz önüne alýnarak hazýrlanmýþtýr. Yazýlým'ýn Hükümet tarafýndan kullanýlmasý, çoðaltýlmasý ya da açýklanmasý FAR52.227-14 ve DFAR252.227-7013 ve bunlarýn ardýndan gelenler veya halefleri tarafýndan belirtilen kýsýtlamalara tabidir. Yazýlým'ýn Hükümet tarafýndan kullanýmý, Hükümet'in, Intel'in Yazýlým üzerindeki mülkiyet haklarýný kabul ettiði anlamýný taþýr. Üstlenici veya Üretici, 2200 Mission College Blvd., Santa Clara, CA 95052, USA adresinde meskun Intel Corporation'dýr.
+
+
+
+EK "A".
+INTEL YAZILIM LÝSANS SÖZLEÞMESÝ (Nihai, Tek Kullanýcý)
+
+ÖNEMLÝ - KOPYALAMADAN, YÜKLEMEDEN VEYA KULLANMADAN ÖNCE OKUYUN. 
+Aþaðýdaki koþullarý ve hükümleri dikkatle okumadan önce, bu yazýlýmý ve iliþkili malzemelerini (toplu þekilde, "Yazýlým" olarak anýlacaktýr) kullanmayýn veya yüklemeyin. Yazýlým'ý yüklemeniz ya da kullanmanýz, bu Sözleþme'nin koþullarýný kabul ettiðiniz anlamýna gelir. Koþullarý bu þekilde kabul etmek istemiyorsanýz, Yazýlým'ý yüklemeyin ya da kullanmayýn.
+
+LÝSANS. Yazýlým'ý, kiþisel ve ticari amaçlar içermeyen kullanýmýnýz için, tek bir bilgisayara kopyalayabilir ve aþaðýdaki koþullara tabi olmak koþuluyla, Yazýlým'ýn bir yedek kopyasýný alabilirsiniz: 
+1. Bu Yazýlým'a, yalnýzca Intel bileþen ürünleriyle birlikte kullanýlmak üzere lisans verilmiþtir. Ýþbu Yazýlým'a, Intel olmayan bileþen ürünleriyle birlikte kullanýlmak üzere lisans verilmemiþtir. 
+2. Bu Sözleþme'de aksinin belirtilmemiþ olmasý halinde, Yazýlým'ýn hiçbir kýsmýný kopyalayamaz, deðiþtiremez, kiralayamaz, satamaz, daðýtamaz veya devredemezsiniz; ayrýca, Yazýlým'ýn kopyalanmasýný önleyeceðinizi de kabul etmiþ olursunuz.
+3. Yazýlým'a ters mühendislik iþlemi uygulayamaz, kaynak koda dönüþtüremez ya da parçalara ayýramazsýnýz. 
+4. Yazýlým lisansýný baþka bir þahýsla paylasamaz ya da Yazýlým'ýn birden çok kullanýcý tarafýndan ayný anda kullanýmýna izin veremezsiniz.
+5. Yazýlým, bir bölümü, ekli bir "lisans.txt" dosyasý ya da baþka bir metin veya dosyada tanýmlý olabilecek ve lisansý saðlanan, baþka yazýlým veya üçüncü þahýs tedarikçilerin baþka bir mülkiyetini içerebilir. 
+
+YAZILIM VE TELÝF HAKLARININ MÜLKÝYETÝ. Tüm Yazýlým kopyalarýnýn mülkiyeti Intel ya da tedarikçilerine aittir. Yazýlým, telif hakkýna sahiptir ve Amerika Birleþik Devletleri ve diðer ülkelerin yasalarýyla ve uluslararasý anlaþmalarýn hükümleriyle korunmaktadýr. Yazýlým'dan herhangi bir telif hakký bildirimini çýkaramazsýnýz. Intel, istediði zaman ve önceden bildirimde bulunmaksýzýn, Yazýlým'da veya burada belirtilen maddelerde deðiþiklik yapabilir; ancak, Yazýlým'ý destekleme ya da güncelleþtirme yükümlülüðünü taþýmaz. Aksinin açýkça belirtilmiþ olduðu haller dýþýnda, Intel, Intel patentleri, ticari markalarý ya da diðer fikri mülkiyet haklarý çerçevesinde hiçbir açýk ya da zýmni hak tanýmaz. Yazýlým'ý yalnýzca, devralan kiþinin bu koþullara tamamýyla tabi olmayý kabul etmesi ve Yazýlým'ýn hiçbir kopyasýnýn bulundurmamanýz durumunda devredebilirsiniz.
+
+SINIRLI ORTAM GARANTÝSÝ.  Yazýlým, Intel tarafýndan fiziksel ortam üzerinden gönderilmiþse, Intel, sözkonusu ortamýn, Intel tarafýndan teslim edilmesinden sonraki doksan (90) günlük süre içinde maddi fiziksel kusurlardan muaf olduðunu garanti eder. Bu tür bir kusur bulunursa, ortamý, deðiþtirilmek veya Yazýlým'ýn, Intel'in tercih edeceði baþka bir þekilde teslim edilmesini saðlamak üzere, Intel'e iade edin.
+
+DÝÐER GARANTÝLERÝN HARÝÇ TUTULMASI. YUKARIDA ÞART KOÞULMASI DURUMU ÝSTÝSNA OLMAK ÜZERE, YAZILIM, SATILABÝLÝRLÝK, HÝÇBÝR TELÝF HAKKI ÝHLALÝNDE BULUNMAMA YA DA BELÝRLÝ BÝR AMACA UYGUNLUK GÝBÝ GARANTÝLER DE DAHÝL OLMAK ÜZERE, HERHANGÝ TÜRDEN AÇIK YA DA ZIMNÝ BÝR GARANTÝ OLMAKSIZIN "OLDUÐU GÝBÝ" SAÐLANMIÞTIR. Intel, Yazýlým'a dahil olan bilgi, metin, grafik, baðlantýlar veya diðer öðelerin doðruluðu ya da tamlýðý konusunda herhangi bir garanti vermez ya da bu öðelere iliþkin sorumluluk kabul etmez.
+
+SORUMLULUÐUN SINIRLANDIRILMASI. INTEL YA DA TEDARÝKÇÝLERÝ, SÖZ KONUSU ZARARLARIN OLASILIÐINDAN HABERDAR EDÝLMÝÞ OLSA DAHÝ, HÝÇBÝR SURETTE YAZILIM'IN KULLANIMINDAN YA DA KULLANILAMAMASINDAN KAYNAKLANAN HERHANGÝ BÝR ZARARDAN (KAR KAYBI, ÝÞÝN KESÝNTÝYE UÐRAMASI VEYA BÝLGÝ KAYBI DAHÝL OLMAK ÜZERE, ANCAK BUNLARLA SINIRLI KALMAMAK KAYDIYLA) SORUMLU OLMAYACAKTIR. BAZI HUKUK SÝSTEMLERÝNDE ZIMNÝ GARANTÝLER VEYA DOLAYLI YA DA DÝÐER ZARARLAR ÝÇÝN SORUMLULUÐUN HARÝÇ TUTULMASI YA DA SINIRLANDIRILMASI YASAKLANMIÞTIR; BU GÝBÝ DURUMLARDA, YUKARIDAKÝ SINIRLAMA TARAFINIZ ÝÇÝN GEÇERLÝ OLMAYABÝLÝR. AYRICA, HUKUK SÝSTEMLERÝNE GÖRE FARKLILIK GÖSTEREN DÝÐER YASAL HAKLARA DA SAHÝP OLABÝLÝRSÝNÝZ. 
+
+BU SÖZLEÞME'NÝN SONA ERMESÝ. Intel, koþullarýný ihlal etmeniz halinde, bu Sözleþme'yi istediði zaman sona erdirebilir. Sözleþme'nin sona erdirilmesi halinde, Yazýlým'ý derhal imha etmeniz veya Yazýlým'ýn tüm kopyalarýný Intel'e iade etmeniz gerekir.
+ 
+GEÇERLÝ YASALAR. Bu Sözleþme çerçevesinde doðan talepler, kanunlar ihtilafýna iliþkin prensipleri ve Mal Satýþ Sözleþmeleri konusundaki Birleþmiþ Milletler Akdi hariç tutulmak üzere, California yasalarýna tabi olacaktýr. Yazýlým'ý, geçerli ihracat yasalarýna ve yönetmeliklerine aykýrý olarak ihraç edemezsiniz. Yazýlý olmamasý ve Intel'in yetkili bir temsilcisi tarafýndan imzalanmamasý durumunda, Intel, baþka hiçbir anlaþma çerçevesinde sorumlu tutulamaz.
+
+HÜKÜMET TARAFINDAN KISITLANMIÞ HAKLAR. Yazýlým, "KISITLANMIÞ HAKLAR" göz önüne alýnarak hazýrlanmýþtýr. Yazýlým'ýn Hükümet tarafýndan kullanýlmasý, çoðaltýlmasý ya da açýklanmasý FAR52.227-14 ve DFAR252.227-7013 ve bunlarýn ardýndan gelenler veya halefleri tarafýndan belirtilen kýsýtlamalara tabidir. Yazýlým'ýn Hükümet tarafýndan kullanýmý, Hükümet'in, Intel'in Yazýlým üzerindeki mülkiyet haklarýný kabul ettiði anlamýný taþýr. Üstlenici veya Üretici, 2200 Mission College Blvd., Santa Clara, CA 95052 adresinde meskun, Intel Corporation'dýr.
+ 
+SLAOEMISV1/RBK/01-21-00
+

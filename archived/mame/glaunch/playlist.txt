@@ -1,0 +1,8 @@
+########################################################################
+#
+# MP3 Playlist file
+#
+# - Comment lines begin with "#"
+# - Every other line is the full path to an MP3 File
+# - Compatible with Winamp M3U files
+#

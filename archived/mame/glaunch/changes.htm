@@ -1,0 +1,196 @@
+<html>
+<head>
+<title>Game Launcher Change Log</title>
+<style type="text/css">
+<!--
+OL,UL,P,BODY,TD,TR,TH,FORM,H1,H2,H3,H4,H5,H6 {
+    font-family: helvetica,verdana,arial,sans-serif;
+}
+A:visited { color: #FF0000 ; }
+A:hover { background-color: #DCDCDC ; }
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF">
+
+<h1 align=center>Game Launcher Change Log</h1>
+
+<h2> Version 0.9.8 - 14 May 2002 </h2>
+
+<p>
+<ul>
+<li>Ported to Win32 and Unix.</li>
+<li>Created rudimentary screen saver.</li>
+<li>Added keys to restart and skip current MP3.</li>
+<li>Added pre-/post-commands that are run before/after a game is run.</li>
+<li>Added mouse (trackball and trackwheel) support.</li>
+</ul>
+</p>
+
+<h2> Version 0.9.7 - 22 Nov 2001 </h2>
+
+<p>
+<ul>
+<li>
+Added turbo scrolling to allow much faster scrolling of large numbers
+of games.
+</li>
+<li> Added a debug mode to help diagnose configuration problems. </li>
+<li> Log files are backed up and rotated to aid in debugging. </li>
+<li> MP3 volume is now configurable. </li>
+<li>
+Fixed a number of file name comparisons that should have been case
+insensitive.
+</li>
+<li> Ignore "use_extension" if a ROM file is used. </li>
+<li> [SOURCE] Changed MP3 library. </li>
+<li> [SOURCE] Changed JPEG library. </li>
+<li> [SOURCE] Upgraded Allegro library.</li>
+<li> [SOURCE] Upgraded TrueType font library. </li>
+<li> [SOURCE] Upgraded PNG and ZLIB libraries. </li>
+</ul>
+</p>
+
+<h2> Version 0.9.6 - 10 Jan 2001 </h2>
+
+<p>
+<ul>
+<li> Fixed crash if no joystick is detected. </li>
+</ul>
+</p>
+
+<h2> Version 0.9.5 - 25 Dec 2000 </h2>
+
+<p>
+<ul>
+<li> Added joystick support, thanks to Dean Bear. </li>
+<li> Added a utility to generate Game Launcher config files for MAME. </li>
+<li> No longer crashes if an invalid config is given. </li>
+<li> No longer crashes if ROM files are removed between invocations. </li>
+</ul>
+</p>
+
+<h2> Version 0.9.4 - 28 Aug 2000 </h2>
+
+<p>
+<ul>
+<li> Added JPEG support for screen shots. </li>
+<li> Handles long file names properly. </li>
+<li> Speed up initial loading time by as much as 15 times. </li>
+<li> Added option to control volume of sound effects. </li>
+<li>
+Moved saved state information out of config files and into one state
+file.
+</li>
+</ul>
+</p>
+
+<h2> Version 0.9.3 - 29 Jul 2000 </h2>
+
+<p>
+<ul>
+<li>
+Added support for TrueType fonts.  The font and size are fully
+configurable.
+</li>
+<li> Added non-integer scaling of screen shots as an option. </li>
+<li> Made the screen resolution fully configurable. </li>
+<li> Fixed a bug in rotated configurations. </li>
+<li> Fixed a SIGSEGV when no ROMs where found. </li>
+</ul>
+</p>
+
+<h2> Version 0.9.2 - 14 Jun 2000 </h2>
+
+<p>
+<ul>
+<li> Support for rotated (vertical) monitors. </li>
+<li> Added an optional icon next to games with a screen shot available. </li>
+<li> Added options to control menu colors. </li>
+<li> Added options to control animation. </li>
+<li> Added more control over key repeat delays. </li>
+<li> Fixed a bug where the "use_extension" option was being ignored. </li>
+<li> Fixed a bug where "rom_extension" only worked with 1 extension. </li>
+<li> Upgraded to UPX v1.0.1. </li>
+<li> [SOURCE] Cleaned up and re-arranged just about everything. </li>
+</ul>
+</p>
+
+<h2> Version 0.9.1 - 22 Feb 2000 </h2>
+
+<p>
+<ul>
+<li> Made all key mappings configurable from glaunch.cfg. </li>
+
+<li>
+Fixed segfault on exit when running on slower machines with really low
+frame rates.
+</li>
+
+<li> Added path_prefix configuration parameter in glaunch.cfg. </li>
+<li> Edited the samples to sound louder. </li>
+<li> Added HTML documentation. </li>
+
+<li>
+Updated version number to 0.9.1 as it's pretty stable and 1.0.0 should
+be close.
+</li>
+
+<li> [SOURCE] Cleaned up CD_Background class. </li>
+</ul>
+</p>
+
+	
+<h2> Version 0.0.2 - 15 Jan 2000 </h2>
+
+<p>
+<ul>
+<li> First public release. </li>
+
+<li>
+Added playlist support for MP3s instead of repeating the same one.
+</li>
+
+<li> Added support to play audio CDs instead of MP3s. </li>
+
+<li>
+Changed resolution from 1024x768 to 800x600.  Wells-Gardner U3100
+doesn't do 1024x768. :( Along with this comes a whole new interface
+that (hopefully) looks nicer.
+</li>
+
+<li> Used MAME-friendly key mappings. </li>
+
+<li>
+Game selection under each emulator is as the menu is changed and is
+remembered between invocations.
+</li>
+
+<li> Support for PNG screen shots. </li>
+	
+<li>
+Fixed segfault while searching for ROMs if a directory exists in a ROM
+directory.
+</li>
+</ul>
+</p>
+	
+<h2> Version 0.0.1 - 15 Dec 1999 </h2>
+
+<p>
+<ul>
+<li> Created config files for everything. </li>
+<li> Added more robust screen shot support. </li>
+
+<li>
+Save state information so that it can pick up where it left off
+between invocations.  This includes current game selected, current
+emulator menu, and location in MP3 song.
+</li>
+
+<li>[SOURCE] Cleaned up Emulator class.</li>
+</ul>
+</p>
+
+</body>
+</html>

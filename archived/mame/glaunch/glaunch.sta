@@ -1,0 +1,10 @@
+[mame]
+selected_index = 0
+first_shown_index = 0
+
+[Main]
+current_emu = 0
+last_font_file = slicker.ttf
+last_font_file_size = 31584
+last_font_size = 18
+last_antialias_font = yes

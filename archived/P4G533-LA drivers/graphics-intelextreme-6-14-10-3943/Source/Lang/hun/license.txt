@@ -1,0 +1,68 @@
+INTEL SZOFTVERLICENC-SZERZÕDÉS (OEM / IHV / ISV és egyedi felhasználók számára)
+
+FONTOS FIGYELMEZTETÉS: A SZOFTVER MÁSOLÁSA, TELEPÍTÉSE ÉS HASZNÁLATA ELÕTT OLVASSA EL AZ ALÁBBIAKAT. 
+
+Ne használja és ne töltse be a számítógépbe a szoftvert és az ahhoz kapcsolódó anyagokat (összefoglaló néven: a "Szoftvert"), amíg figyelmesen el nem olvasta az alábbi feltételeket. A Szoftver betöltésével és használatával Ön elfogadja a jelen Szerzõdés feltételeit. Ha nem kívánja elfogadni e feltételeket, ne telepítse és ne használja a Szoftvert.
+
+Emellett tartsa szem elõtt a következõket:
+* Ha Ön eredetiberendezés-gyártó (OEM), független hardvergyártó (IHV) vagy független szoftverszállító (ISV), a LICENCSZERZÕDÉS teljes egésze vonatkozik Önre. 
+* Ha Ön végfelhasználó, akkor Önre csak az "A" melléklet, az INTEL SZOFTVERLICENC-SZERZÕDÉS vonatkozik.
+
+Az OEM-ek, IHV-k és ISV-k részére:
+
+HASZNÁLATI ENGEDÉLY. A Szoftver használata csak az Intel által szállított komponensekkel engedélyezett. A Szoftvernek nem az Intel által gyártott komponensekkel együtt történõ használata jelen Szerzõdés keretében nem engedélyezett. A jelen Szerzõdésben foglalt feltételekkel az Intel nem kizárólagos, át nem ruházható, az egész világra kiterjedõ, teljes egészében tehermentes, az Intel szerzõi jogi védelme alá esõ használati engedélyt biztosít a következõkre:
+     a.) a Szoftver belsõ használata, módosítása és másolása saját fejlesztési és karbantartási célokra; valamint
+     b.) a Szoftver módosítása, másolása és forgalmazása - a Szoftverbõl származtatott termékeket is ideértve - az Ön végfelhasználói számára, de csakis olyan licencszerzõdés hatálya alatt, amelynek feltételei legalább annyira korlátozó jellegûek, mint amilyeneket az Intel egyedi végfelhasználóknak szánt licencszerzõdése tartalmaz, mely jelen anyag "A" mellékletét képezi; valamint
+     c.) a Szoftverhez esetlegesen mellékelt végfelhasználói dokumentáció módosítása, másolása és forgalmazása, de csakis a Szoftverrel együtt.
+
+Ha Ön a Szoftvert tartalmazó számítógépes rendszernek vagy szoftverprogramnak nem a végsõ gyártója vagy elõállítója, akkor a Szoftver egy példányát annak származtatott termékeivel (és kapcsolódó végfelhasználói dokumentációjával) együtt átadhatja az átvevõ félnek a jelen Szerzõdés feltételeinek megfelelõ felhasználás céljára, amennyiben az átvevõ fél maradéktalanul kötelezi magát a Szerzõdés feltételeinek betartására.  A Szoftvert harmadik félnek semmilyen más módon nem engedheti át, nem licencelheti tovább, nem adhatja bérbe, illetve semmilyen más módon nem ruházhatja át és nem teheti elérhetõvé. Ön a Szoftvert nem dekompilálhatja, nem dizasszemblálhatja, és semmilyen más módon nem fejtheti vissza.
+
+A jelen Szerzõdésben biztosított engedélyeken és jogokon kívül Önt semmilyen más engedély vagy jog nem illeti meg sem közvetlenül, sem közvetve, sem jogi célból, sem kereseti igény megtiltása által, sem másként. Az Intel jogosult saját maga vagy független fél által megvizsgálni az Ön vonatkozó nyilvántartásait annak ellenõrzése céljából, hogy Ön betartja-e jelen Szerzõdés feltételeit.
+
+TITOKTARTÁSI KÖTELEZETTSÉG. Amennyiben külsõ szaktanácsadót vagy alvállalkozót ("Alvállalkozó") kíván felkérni az Ön számára történõ olyan munkavégzésre, amelyhez a Szoftverhez való hozzáférés vagy annak használata szükséges, akkor Önnek írásos titoktartási nyilatkozatot kell beszereznie az Alvállalkozótól, amely a Szoftverhez való hozzáférés vagy annak használata tekintetében legalább a jelen Szerzõdésben foglaltaknak megfelelõ szigorúságú feltételeket és kötelezettségeket ír elõ, és amely kizár minden forgalmazási és egyéb célú felhasználási jogot.
+Emellett Ön az Intel elõzetes írásos engedélye nélkül nem közölheti a jelen Szerzõdés feltételeit vagy létezését, továbbá nem használhatja az Intel nevét semmilyen kiadványban, reklámanyagban vagy egyéb közleményben. Ön nem jogosult az Intel semmilyen védjegyének vagy emblémájának a használatára.
+
+A SZOFTVER TULAJDONJOGA ÉS A SZERZÕI JOGOK. A Szoftver összes példányának tulajdonjoga az Intel vagy szállítói kezében marad. A Szoftver az Egyesült Államok és más országok törvényei, valamint a nemzetközi egyezmények rendelkezései értelmében szerzõi jogvédelem alá esik. A Szoftverbõl nem távolíthatja el a szerzõi jogra vonatkozó közleményeket. Az Intel elõzetes értesítés nélkül bármikor jogosult a Szoftver vagy a Szoftver által hivatkozott elemek módosítására, de nem kötelezhetõ a Szoftver támogatására vagy frissítésére.  Ellenkezõ értelmû rendelkezés hiányában az Intel sem kifejezett, sem beleértett jogokat nem biztosít az Intel szabadalmaira, szerzõi jogaira, védjegyeire vagy más szellemi tulajdonára vonatkozóan. Ön csak akkor ruházhatja át a Szoftvert, ha a kedvezményezett maradéktalanul beleegyezik jelen feltételek teljesítésébe, és ha Ön a Szoftver egyetlen példányát sem õrzi meg. 
+
+KORLÁTOZOTT SZAVATOSSÁG AZ ADATHORDOZÓRA.  Amennyiben az Intel a Szoftvert fizikai adathordozón bocsátja rendelkezésre, akkor szavatolja, hogy az adathordozó a leszállítást követõ kilencven (90) napon át mentes lesz az anyaghibáktól és egyéb fizikai jellegû hibáktól. Ha ilyen hibát észlel, juttassa vissza az adathordozót az Intelhez. Az Intel belátása szerint kicseréli az adathordozót, vagy más módon bocsájtja rendelkezésre a Szoftvert.
+
+AZ EGYÉB SZAVATOSSÁGOK KIZÁRÁSA. A FENT EMLÍTETT ESETEKET KIVÉVE AZ INTEL A SZOFTVERT "ADOTT ÁLLAPOTÁBAN" BOCSÁJTJA RENDELKEZÉSRE, MINDENFAJTA KIFEJEZETT VAGY BELEÉRTETT SZAVATOSSÁG NÉLKÜL, BELEÉRTVE TÖBBEK KÖZÖTT AZ ELADHATÓSÁGRA, A JOGSÉRTÉSMENTESSÉGRE, ILLETVE AZ ADOTT CÉLRA VALÓ ALKALMASSÁGRA VONATKOZÓ SZAVATOSSÁGOT IS.  Az Intel nem nyújt szavatosságot és nem vállal felelõsséget a Szoftverben található semmilyen információ, szöveg, ábra, hivatkozás és egyéb elem helyessége vagy teljessége tekintetében.
+
+FELELÕSSÉGKORLÁTOZÁS. AZ INTEL ÉS SZÁLLÍTÓI NEM VÁLLALNAK SEMMINEMÛ FELELÕSSÉGET AZ OLYAN KÁROKÉRT (IDE ÉRTVE TÖBBEK KÖZÖTT AZ ELMARADT HASZONBÓL, AZ ÜZLETI TEVÉKENYSÉG FENNAKADÁSÁBÓL VAGY AZ ADATVESZTÉSBÕL EREDÕ KÁROKAT), AMELYEK A SZOFTVER HASZNÁLATÁBÓL, ILLETVE HASZNÁLATÁNAK AKADÁLYOZTATÁSÁBÓL SZÁRMAZNAK, AKKOR SEM, HA AZ INTELT TÁJÉKOZTATTÁK AZ ILYEN KÁROK LEHETÕSÉGÉRÕL. MIVEL EGYES ORSZÁGOK TÖRVÉNYKEZÉSE NEM ENGEDI MEG A BELEÉRTETT GARANCIÁK, ILLETVE A KÖVETKEZMÉNYES VAGY ESETI KÁROKÉRT VALÓ FELELÕSSÉG KIZÁRÁSÁT VAGY KORLÁTOZÁSÁT, EZÉRT LEHET, HOGY A FENTI KORLÁTOZÁSOK ÖNRE NEM ÉRVÉNYESEK. ÖNT AZ EGYES ORSZÁGOK TÖRVÉNYKEZÉSÉTÕL FÜGGÕEN EGYÉB JOGOK IS MEGILLETHETIK. 
+
+A SZERZÕDÉS MEGSZÜNTETÉSE. Az Intel bármikor felmondhatja a jelen Szerzõdést, ha Ön a benne foglaltakat megszegi. A Szerzõdés megszûntekor Ön köteles a Szoftvert megsemmisíteni, vagy annak összes példányát az Intelhez visszajuttatni. 
+
+IRÁNYADÓ JOG. A jelen Szerzõdésbõl származó vitás kérdéseket illetõen Kalifornia állam törvényei az irányadók, kivéve azoknak a jogütközésre és az áruforgalmi szerzõdésekrõl szóló ENSZ-egyezményre vonatkozó elveit. Ön nem exportálhatja a Szoftvert a hatályos exporttörvényeket és -elõírásokat megsértõ módon. Az Intelt semmilyen más megállapodás nem kötelezi, kivéve, ha azt írásban rögzítik, és az Intel hivatalos képviselõje írja alá. 
+
+AZ EGYESÜLT ÁLLAMOK KORMÁNYÁNAK KORLÁTOZOTT JOGAI. A Szoftver "KORLÁTOZOTT JOGI FELTÉTELEK" hatálya alá esik. Az Egyesült Államok kormánya általi használatra, másolásra és közlésre a FAR52.227-14 és az azt követõ DFAR252.227-7013, illetve az ezeket felváltó rendelkezések érvényesek. A Szoftvernek az USA kormánya általi használata az Intel vonatkozó szellemi tulajdonjogainak elismerését jelenti. E vonatkozásban a Vállalkozó vagy Gyártó az Intel Corporation, 2200 Mission College Blvd., Santa Clara, CA 95052 (USA). 
+
+"A" MELLÉKLET
+INTEL SZOFTVERLICENC-SZERZÕDÉS (egyedi végfelhasználóknak)
+
+FONTOS FIGYELMEZTETÉS: A SZOFTVER MÁSOLÁSA, TELEPÍTÉSE ÉS HASZNÁLATA ELÕTT OLVASSA EL AZ ALÁBBIAKAT. 
+
+Ne használja és ne töltse be a számítógépbe a szoftvert és az ahhoz kapcsolódó anyagokat (összefoglaló néven: a "Szoftvert"), amíg figyelmesen el nem olvasta az alábbi feltételeket. A Szoftver betöltésével és használatával Ön elfogadja a jelen Szerzõdés feltételeit. Ha nem kívánja elfogadni e feltételeket, ne telepítse és ne használja a Szoftvert.
+
+HASZNÁLATI ENGEDÉLY. A Szoftvert egyetlen számítógépre másolhatja fel személyes, nem kereskedelmi célú használatra, és a Szoftverrõl az alábbi feltételek mellett egy biztonsági másolatot készíthet: 
+1. A Szoftver használata csak az Intel által szállított komponensekkel együtt engedélyezett. A Szoftvernek nem az Intel által gyártott komponenseivel együtt történõ használata jelen Szerzõdés keretében nem engedélyezett. 
+2. A jelen Szerzõdés rendelkezéseiben foglalt eseteket kivéve Ön a Szoftver semely részét sem másolhatja le, nem módosíthatja, nem adhatja bérbe, nem értékesítheti, nem terjesztheti és nem ruházhatja át, és Ön egyúttal abba is beleegyezik, hogy megakadályozza a Szoftver engedély nélküli lemásolását.
+3. Ön a Szoftvert nem fejtheti vissza, nem dekompilálhatja, és nem dizasszemblálhatja. 
+4. A Szoftvert nem licencelheti tovább, és nem engedheti meg egynél több felhasználó általi egyidejû használatát.
+5. A Szoftver más cégek szoftvereit vagy egyéb tulajdonát is tartalmazhatja; ezek megjelölését és a használati engedélyükre vonatkozó utalást egy csatolt "license.txt" fájl vagy más szöveg vagy fájl tartalmazhatja.
+
+A SZOFTVER TULAJDONJOGA ÉS A SZERZÕI JOGOK. A Szoftver összes példányának tulajdonjoga az Intel vagy szállítói kezében marad. A Szoftver az Egyesült Államok és más országok törvényei, valamint a nemzetközi egyezmények rendelkezései értelmében szerzõi jogvédelem alá esik. A Szoftverbõl nem távolíthatja el a szerzõi jogra vonatkozó közleményeket. Az Intel elõzetes értesítés nélkül bármikor jogosult a Szoftver vagy a Szoftver által hivatkozott elemek módosítására, de nem kötelezhetõ a Szoftver támogatására vagy frissítésére.  Ellenkezõ értelmû rendelkezés hiányában az Intel sem kifejezett, sem beleértett jogokat nem biztosít az Intel szabadalmaira, szerzõi jogaira, védjegyeire vagy más szellemi tulajdonára vonatkozóan. Ön csak akkor ruházhatja át a Szoftvert, ha a kedvezményezett maradéktalanul beleegyezik jelen feltételek teljesítésébe, és ha Ön a Szoftver egyetlen példányát sem õrzi meg.
+
+KORLÁTOZOTT SZAVATOSSÁG AZ ADATHORDOZÓRA. Amennyiben az Intel a Szoftvert fizikai adathordozón bocsátja rendelkezésre, akkor szavatolja, hogy az adathordozó a leszállítást követõ kilencven (90) napon át mentes lesz az anyaghibáktól és egyéb fizikai jellegû hibáktól. Ha ilyen hibát észlel, juttassa vissza az adathordozót az Intelhez. Az Intel belátása szerint kicseréli az adathordozót, vagy más módon bocsájtja rendelkezésre a Szoftvert.
+
+AZ EGYÉB SZAVATOSSÁGOK KIZÁRÁSA. A FENT EMLÍTETT ESETEKET KIVÉVE AZ INTEL A SZOFTVERT "ADOTT ÁLLAPOTÁBAN" BOCSÁJTJA RENDELKEZÉSRE, MINDENFAJTA KIFEJEZETT VAGY BELEÉRTETT SZAVATOSSÁG NÉLKÜL, BELEÉRTVE TÖBBEK KÖZÖTT AZ ELADHATÓSÁGRA, A JOGSÉRTÉSMENTESSÉGRE, ILLETVE AZ ADOTT CÉLRA VALÓ ALKALMASSÁGRA VONATKOZÓ SZAVATOSSÁGOT IS.  Az Intel nem nyújt szavatosságot és nem vállal felelõsséget a Szoftverben található semmilyen információ, szöveg, ábra, hivatkozás és egyéb elem helyessége vagy teljessége tekintetében.
+
+FELELÕSSÉGKORLÁTOZÁS. AZ INTEL ÉS SZÁLLÍTÓI SEMMINEMÛ FELELÕSSÉGET NEM VÁLLALNAK AZ OLYAN KÁROKÉRT (IDEÉRTVE TÖBBEK KÖZÖTT AZ ELMARADT HASZONBÓL, AZ ÜZLETI TEVÉKENYSÉG FENNAKADÁSÁBÓL VAGY AZ ADATVESZTÉSBÕL EREDÕ KÁROKAT), AMELYEK A SZOFTVER HASZNÁLATÁBÓL VAGY HASZNÁLATÁNAK AKADÁLYOZTATÁSÁBÓL SZÁRMAZNAK, MÉG AKKOR SEM, HA AZ EFFÉLE KÁROK LEHETÕSÉGÉRÕL AZ INTELT TÁJÉKOZTATTÁK. MIVEL EGYES ORSZÁGOK TÖRVÉNYKEZÉSE NEM ENGEDI MEG A BELEÉRTETT SZAVATOSSÁGOK, ILLETVE A KÖVETKEZMÉNYES VAGY ESETI KÁROKÉRT VALÓ FELELÕSSÉG KIZÁRÁSÁT VAGY KORLÁTOZÁSÁT, EZÉRT LEHET, HOGY A FENTI KORLÁTOZÁSOK ÖNRE NEM ÉRVÉNYESEK. ÖNT AZ EGYES ORSZÁGOK TÖRVÉNYKEZÉSÉTÕL FÜGGÕEN EGYÉB JOGOK IS MEGILLETHETIK.
+
+A SZERZÕDÉS MEGSZÜNTETÉSE. Az Intel bármikor felmondhatja jelen Szerzõdést, ha Ön a benne foglaltakat megszegi. A Szerzõdés megszûntekor Ön köteles a Szoftvert megsemmisíteni, vagy annak összes példányát az Intelhez visszajuttatni.
+ 
+IRÁNYADÓ JOG. A jelen Szerzõdésbõl eredõ vitás kérdések tekintetében Kalifornia állam törvényei az irányadók, kivéve azoknak a jogütközésre és az áruforgalmi szerzõdésekrõl szóló ENSZ-egyezményre vonatkozó elveit. Ön a Szoftvert a hatályos exporttörvényeket és -elõírásokat megszegõ módon nem exportálhatja. Az Intelt semmilyen más megállapodás nem kötelezi, csak az írásba foglalt és az Intel hivatalos képviselõje által aláírt megállapodások.
+
+AZ EGYESÜLT ÁLLAMOK KORMÁNYÁNAK KORLÁTOZOTT JOGAI. A Szoftver "KORLÁTOZOTT JOGI FELTÉTELEK" hatálya alá esik. Az Egyesült Államok kormánya általi használatra, másolásra és közlésre a FAR52.227-14 és az azt követõ DFAR252.227-7013, illetve az ezeket felváltó rendelkezések érvényesek. A Szoftvernek az USA kormánya általi használata az Intel vonatkozó szellemi tulajdonjogainak elismerését jelenti. E vonatkozásban a Vállalkozó vagy Gyártó az Intel Corporation, 2200 Mission College Blvd., Santa Clara, CA 95052 (USA). 
+
+SLAOEMISV1/RBK/01-21-00
+

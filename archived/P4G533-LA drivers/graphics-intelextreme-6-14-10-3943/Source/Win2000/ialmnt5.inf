@@ -1,0 +1,976 @@
+
+;=============================================================================
+;
+; Copyright (c) Intel Corporation (2002).
+;
+; INTEL MAKES NO WARRANTY OF ANY KIND REGARDING THE CODE.  THIS CODE IS
+; LICENSED ON AN "AS IS" BASIS AND INTEL WILL NOT PROVIDE ANY SUPPORT,
+; ASSISTANCE, INSTALLATION, TRAINING OR OTHER SERVICES.  INTEL DOES NOT
+; PROVIDE ANY UPDATES, ENHANCEMENTS OR EXTENSIONS.  INTEL SPECIFICALLY
+; DISCLAIMS ANY WARRANTY OF MERCHANTABILITY, NONINFRINGEMENT, FITNESS FOR ANY
+; PARTICULAR PURPOSE, OR ANY OTHER WARRANTY.  Intel disclaims all liability,
+; including liability for infringement of any proprietary rights, relating to
+; use of the code. No license, express or implied, by estoppel or otherwise,
+; to any intellectual property rights is granted herein.
+;
+;=============================================================================
+
+; Installation inf for the Intel Corporation graphics adapter.
+
+[Version]
+Signature="$WINDOWS NT$"
+Provider=%Intel%
+ClassGUID={4D36E968-E325-11CE-BFC1-08002BE10318}
+Class=Display
+CatalogFile=igfxnt5.cat
+
+DriverVer=11/02/2004,6.14.10.3943
+
+[DestinationDirs]
+DefaultDestDir   = 11
+ialm.Miniport  = 12  ; drivers
+ialm.Display   = 11  ; system32
+Help.Copy = 11
+CUI.Copy = 11
+Uninstall_Copy = 11
+
+OpenGL.Copy    = 11  ; OpenGL Drivers in System32
+
+;
+; Driver information
+;
+
+[Manufacturer]
+%Intel%   = Intel.Mfg
+
+[Intel.Mfg]
+%iBKDG% = i845G, PCI\VEN_8086&DEV_2562
+%iMGM%  = iMGM,  PCI\VEN_8086&DEV_3582
+%iSDG%	 = i865G, PCI\VEN_8086&DEV_2572
+%iGDGD0% = iGDG0, PCI\VEN_8086&DEV_2582
+%iGDGD1% = iGDG1, PCI\VEN_8086&DEV_2782
+%iALVD0% = iALV0, PCI\VEN_8086&DEV_2592
+%iALVD1% = iALV1, PCI\VEN_8086&DEV_2792
+
+;
+; General installation section
+;
+
+[iMGM]
+DelFiles=CUI.DelFiles, CUISDK.DelFiles
+CopyFiles=ialm.Miniport, ialm.Display,OEM.Copy, CUI.Copy,Help.Copy,Resource.Copy,CUISDK.Copy,Uninstall_Copy , OpenGL.Copy
+AddReg = CUI.AddReg,UninstallMGM_AddReg , OpenGL.AddReg ,Rotation.AddReg, Sprite.AddReg, CUISDK.AddReg
+DelReg =  PC.DelReg, CUI.DelReg  ,Rotation.DelReg, CUISDK.DelReg
+;InstallINF = 0
+
+DriverVer=11/02/2004,6.14.10.3943
+
+[i845G]
+DelFiles=CUI.DelFiles, CUISDK.DelFiles
+CopyFiles=ialm.Miniport, ialm.Display, CUI.Copy,Help.Copy,Resource.Copy,CUISDK.Copy, Uninstall_Copy , OpenGL.Copy
+AddReg = CUI.AddReg,Uninstall845G_AddReg , OpenGL.AddReg ,Rotation.AddReg, CUISDK.AddReg
+DelReg =  PC.DelReg, CUI.DelReg  ,Rotation.DelReg, CUISDK.DelReg
+;InstallINF = 0
+
+DriverVer=11/02/2004,6.14.10.3943
+
+[iGDG0]
+DelFiles=CUI.DelFiles, CUISDK.DelFiles
+CopyFiles=ialm.Miniport, ialm.Display, CUI.Copy,Help.Copy,Resource.Copy,CUISDK.Copy,Uninstall_Copy , OpenGL.Copy
+AddReg = CUI.AddReg,UninstallGDG0_AddReg , OpenGL.AddReg ,Rotation.AddReg, Sprite.AddReg, CUISDK.AddReg
+DelReg =  PC.DelReg, CUI.DelReg  ,Rotation.DelReg, CUISDK.DelReg
+;InstallINF = 0
+
+DriverVer=11/02/2004,6.14.10.3943
+
+[iGDG1]
+DelFiles=CUI.DelFiles, CUISDK.DelFiles
+CopyFiles=ialm.Miniport, ialm.Display, CUI.Copy,Help.Copy,Resource.Copy,CUISDK.Copy,Uninstall_Copy , OpenGL.Copy
+AddReg = CUI.AddReg,UninstallGDG1_AddReg , OpenGL.AddReg ,Rotation.AddReg, Sprite.AddReg, CUISDK.AddReg
+DelReg =  PC.DelReg, CUI.DelReg  ,Rotation.DelReg, CUISDK.DelReg
+;InstallINF = 0
+
+DriverVer=11/02/2004,6.14.10.3943
+
+[i865G]
+DelFiles=CUI.DelFiles, CUISDK.DelFiles
+CopyFiles=ialm.Miniport, ialm.Display,CUI.Copy,Help.Copy,Resource.Copy,CUISDK.Copy,Uninstall_Copy , OpenGL.Copy
+AddReg = CUI.AddReg,UninstallSPDG_AddReg , OpenGL.AddReg ,Rotation.AddReg, CUISDK.AddReg
+DelReg = PC.DelReg, CUI.DelReg  ,Rotation.DelReg,CUISDK.DelReg
+;InstallINF = 0
+
+DriverVer=11/02/2004,6.14.10.3943
+
+[iALV0]
+DelFiles=CUI.DelFiles, CUISDK.DelFiles
+CopyFiles=ialm.Miniport, ialm.Display, OEM.Copy, CUI.Copy,Help.Copy,Resource.Copy,CUISDK.Copy,Uninstall_Copy , OpenGL.Copy
+AddReg = CUI.AddReg,UninstallALV0_AddReg , OpenGL.AddReg ,Rotation.AddReg, Sprite.AddReg, CUISDK.AddReg
+DelReg =  PC.DelReg, CUI.DelReg  ,Rotation.DelReg,CUISDK.DelReg
+;InstallINF = 0
+
+DriverVer=11/02/2004,6.14.10.3943
+
+[iALV1]
+DelFiles=CUI.DelFiles, CUISDK.DelFiles
+CopyFiles=ialm.Miniport, ialm.Display, OEM.Copy, CUI.Copy,Help.Copy,Resource.Copy,CUISDK.Copy,Uninstall_Copy , OpenGL.Copy
+AddReg = CUI.AddReg,UninstallALV1_AddReg , OpenGL.AddReg ,Rotation.AddReg, Sprite.AddReg, CUISDK.AddReg
+DelReg =  PC.DelReg, CUI.DelReg  ,Rotation.DelReg,CUISDK.DelReg
+;InstallINF = 0
+
+DriverVer=11/02/2004,6.14.10.3943
+
+[iMGM.CoInstallers]
+AddReg = iAlmCoInst.AddReg
+CopyFiles = iAlmCoInst.CopyFiles
+
+[i845G.CoInstallers]
+AddReg = iAlmCoInst.AddReg
+CopyFiles = iAlmCoInst.CopyFiles
+
+[iGDG0.CoInstallers]
+AddReg = iAlmCoInst.AddReg
+CopyFiles = iAlmCoInst.CopyFiles
+
+[iGDG1.CoInstallers]
+AddReg = iAlmCoInst.AddReg
+CopyFiles = iAlmCoInst.CopyFiles
+
+[i865G.CoInstallers]
+AddReg = iAlmCoInst.AddReg
+CopyFiles = iAlmCoInst.CopyFiles
+
+[iALV0.CoInstallers]
+AddReg = iAlmCoInst.AddReg
+CopyFiles = iAlmCoInst.CopyFiles
+
+[iALV1.CoInstallers]
+AddReg = iAlmCoInst.AddReg
+CopyFiles = iAlmCoInst.CopyFiles
+
+[iAlmCoInst.AddReg]
+
+HKR,,CoInstallers32,0x10000,"iAlmCoIn_v3943.dll,iAlmMFCoInstaller"
+
+[Rotation.AddReg]
+
+[Rotation.DelReg]
+HKLM, System\CurrentControlSet\Services\ialm\Device0, Display1_EnableRotation
+
+[iAlmCoInst.CopyFiles]
+
+iAlmCoIn_v3943.dll,iAlmCoIn.dll,,0x00000010
+
+;
+; File sections
+;
+[ialm.Miniport]
+ialmnt5.sys
+
+[ialm.Display]
+ialmrnt5.dll
+ialmdnt5.dll
+ialmdev5.dll
+ialmdd5.dll
+
+[OpenGL.Copy]
+ialmgicd.dll
+ialmgdev.dll
+
+[Uninstall_Copy]
+ialmrem.dll
+
+[CUI.DelFiles]
+igfxres.dll,,,1
+igfx.hlp,,,1
+
+[OEM.Copy]
+oemdspif.dll	
+
+[CUI.Copy]
+hccutils.dll
+igfxsrvc.dll
+igfxpph.dll
+igfxeud.dll
+igfxcpl.cpl
+igfxcfg.exe
+igfxdiag.exe
+igfxdgps.dll
+igfxdev.dll
+igfxdo.dll
+igfxrenu.lrc    ; American English language resource file
+igfxhenu.lhp    ; American English language help file
+igfxtray.exe
+igfxzoom.exe
+igfxhk.dll
+hkcmd.exe
+igfxress.dll	; Generic language resource file
+
+[Resource.Copy]
+igfxrara.lrc    ; Arabic language resource file
+igfxrarb.lrc    ; Arabic language resource file
+igfxrchs.lrc    ; Simplified Chinese language resource file
+igfxrcht.lrc    ; Traiditional Chinese language resource file
+igfxrdan.lrc    ; Danish language resource file
+igfxrdeu.lrc    ; German language resource file
+igfxreng.lrc    ; UK English language resource file
+igfxresp.lrc    ; Spanish language resource file
+igfxrfin.lrc    ; Finish language resource file
+igfxrfra.lrc    ; French language resource file
+igfxrfrc.lrc    ; French Canadian language resource file
+igfxrheb.lrc    ; Hebrew Language Resource file
+igfxrita.lrc    ; Italian language resource file
+igfxrjpn.lrc    ; Japanese language resource file
+igfxrkor.lrc    ; Korean language resource file
+igfxrnld.lrc    ; Netherland language resource file
+igfxrnor.lrc    ; Norwegian language resource file
+igfxrplk.lrc    ; Polish language resource file
+igfxrptb.lrc    ; Brazilian Portugese language resource file
+igfxrptg.lrc    ; Portugese language resource file
+igfxrrus.lrc    ; Russian language resource file
+igfxrsve.lrc    ; Sweedish language resource file
+igfxrtha.lrc    ; Thai language resource file
+igfxrcsy.lrc    ; Czechoslovakian language resource file
+igfxrell.lrc    ; Greek language resource file
+igfxrhun.lrc    ; Hungarian language resource file
+igfxrtrk.lrc    ; Turkish language resource file
+
+[Help.Copy]
+igfxhara.lhp    ; Arabic language help file
+igfxharb.lhp    ; Arabic language help file
+igfxhchs.lhp    ; Simplified Chinese language help file
+igfxhcht.lhp    ; Traditional Chinese language help file
+igfxhdan.lhp    ; Danish language help file
+igfxhdeu.lhp    ; German language help file
+igfxheng.lhp    ; UK English language help file
+igfxhesp.lhp    ; Spanish language help file
+igfxhfin.lhp    ; Finish language help file
+igfxhfra.lhp    ; French language help file
+igfxhfrc.lhp    ; French Canadian language help file
+igfxhheb.lhp    ; Hebrew Language help file
+igfxhita.lhp    ; Italian language help file
+igfxhjpn.lhp    ; Japanese language help file
+igfxhkor.lhp    ; Korean language help file
+igfxhnld.lhp    ; Netherland language help file
+igfxhnor.lhp    ; Norwegian language help file
+igfxhplk.lhp    ; Polish language help file
+igfxhptb.lhp    ; Brazilian Portugese help resource file
+igfxhptg.lhp    ; Portugese language help file
+igfxhrus.lhp    ; Russian language help file
+igfxhsve.lhp    ; Sweedish language help file
+igfxhtha.lhp    ; Thai language help file
+igfxhcsy.lhp    ; Czechoslovakian language help file
+igfxhell.lhp    ; Greek language help file
+igfxhhun.lhp    ; Hungarian language help file
+igfxhtrk.lhp    ; Turkish language help file
+
+[CUI.DelReg]
+HKLM,%CUIDeviceIndependentKey%
+HKLM,%DisplayKey%
+; Delete old style cui/driver share key
+HKLM,%CUIDriverOldShareKey%
+; Delete old style cui keys which are device dependent
+HKLM,Software\INTEL\igfxcui
+HKR,igfxdiag
+HKR,igfxeud
+HKR,igfxcfg
+HKR,igfxcpl
+HKR,igfxpph
+HKR,igfxsrvc
+HKR,igfxhk
+HKR,hkcmd
+HKR,igfxtray
+HKR,shellex\PropertySheetHandlers
+;
+; Delete the CUI registry entry which registers for winlogon events
+;
+HKLM,"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify\igfxcui"
+
+;
+; Service Installation
+;
+
+[iMGM.Services]
+AddService = ialm, 0x00000002, ialm_Service_Inst, ialm_EventLog_Inst
+
+[i845G.Services]
+AddService = ialm, 0x00000002, ialm_Service_Inst, ialm_EventLog_Inst
+
+[iGDG0.Services]
+AddService = ialm, 0x00000002, ialm_Service_Inst, ialm_EventLog_Inst
+
+[iGDG1.Services]
+AddService = ialm, 0x00000002, ialm_Service_Inst, ialm_EventLog_Inst
+
+[i865G.Services]
+AddService = ialm, 0x00000002, ialm_Service_Inst, ialm_EventLog_Inst
+
+[iALV0.Services]
+AddService = ialm, 0x00000002, ialm_Service_Inst, ialm_EventLog_Inst
+
+[iALV1.Services]
+AddService = ialm, 0x00000002, ialm_Service_Inst, ialm_EventLog_Inst
+
+[ialm_Service_Inst]
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 0                ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Video
+ServiceBinary  = %12%\ialmnt5.sys
+
+[ialm_EventLog_Inst]
+AddReg = ialm_EventLog_AddReg
+
+[ialm_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%"\System32\IoLogMsg.dll;%SystemRoot%"\System32\drivers\ialmnt5.sys"
+HKR,,TypesSupported,0x00010001,7
+
+;
+; Software Installation
+;
+
+[iMGM.SoftwareSettings]
+AddReg = iMGM_SoftwareDeviceSettings
+AddReg = Rotation_AddSwSettings
+DelReg = Rotation_DelSwSettings
+AddReg = OpenGL_AddSwSettings
+DelReg = OpenGL_DelSwSettings
+
+[i845G.SoftwareSettings]
+AddReg = i845G_SoftwareDeviceSettings
+AddReg = Rotation_AddSwSettings
+DelReg = Rotation_DelSwSettings
+AddReg = OpenGL_AddSwSettings
+DelReg = OpenGL_DelSwSettings
+
+[iGDG0.SoftwareSettings]
+AddReg = iGDG_SoftwareDeviceSettings
+AddReg = Rotation_AddSwSettings
+DelReg = Rotation_DelSwSettings
+AddReg = OpenGL_AddSwSettings
+DelReg = OpenGL_DelSwSettings
+
+[iGDG1.SoftwareSettings]
+AddReg = iGDG_SoftwareDeviceSettings
+AddReg = Rotation_AddSwSettings
+DelReg = Rotation_DelSwSettings
+AddReg = OpenGL_AddSwSettings
+DelReg = OpenGL_DelSwSettings
+
+[iALV0.SoftwareSettings]
+AddReg = iALV_SoftwareDeviceSettings
+AddReg = Rotation_AddSwSettings
+DelReg = Rotation_DelSwSettings
+AddReg = OpenGL_AddSwSettings
+DelReg = OpenGL_DelSwSettings
+AddReg = PwrCons_AddSwSettings
+DelReg = PwrCons_DelSwSettings
+
+[iALV1.SoftwareSettings]
+AddReg = iALV_SoftwareDeviceSettings
+AddReg = Rotation_AddSwSettings
+DelReg = Rotation_DelSwSettings
+AddReg = OpenGL_AddSwSettings
+DelReg = OpenGL_DelSwSettings
+AddReg = PwrCons_AddSwSettings
+DelReg = PwrCons_DelSwSettings
+
+[i865G.SoftwareSettings]
+AddReg = i865G_SoftwareDeviceSettings
+AddReg = Rotation_AddSwSettings
+DelReg = Rotation_DelSwSettings
+AddReg = OpenGL_AddSwSettings
+DelReg = OpenGL_DelSwSettings
+
+[PwrCons_AddSwSettings]
+HKR,, FeatureTestControl,%REG_DWORD%, 2  ; Disable FBC
+
+[PwrCons_DelSwSettings]
+HKR,FeatureTestControl
+
+[Rotation_AddSwSettings]
+
+HKR,, Display1_RotationCaps,%REG_DWORD%, 7  ; Portrait, Inverted LandScape, Inverted Portrait
+HKR,, Display2_RotationCaps,%REG_DWORD%, 7  ; Portrait, Inverted LandScape, Inverted Portrait
+HKR,, Display1_RotationPolicy,%REG_DWORD%, 0  ; default policy
+HKR,, Display2_RotationPolicy,%REG_DWORD%, 0  ; default policy
+HKR,, Display1_RotationConfig,%REG_DWORD%, 0  ; default configuration
+HKR,, Display2_RotationConfig,%REG_DWORD%, 0  ; default configuration
+
+[Rotation_DelSwSettings]
+HKR,Display1_RotationCaps
+HKR,Display2_RotationCaps
+HKR,Display1_RotationPolicy
+HKR,Display2_RotationPolicy
+
+[OpenGL_AddSwSettings]
+
+HKR,, OpenGLInstalled,%REG_DWORD%, 1  ; Open GL drivers installed
+
+[OpenGL_DelSwSettings]
+HKR,OpenGLInstalled
+
+[iMGM_SoftwareDeviceSettings]
+
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, ialmrnt5
+
+HKR,, VgaCompatible,                 %REG_DWORD%,    0
+;Enable Multifunction support
+HKR,,MultifunctionSupported, %REG_DWORD%, 1
+HKR,,NativeResolution, %REG_DWORD%, 1
+HKR,,NativeBPP, %REG_DWORD%, 1
+HKR,,ConfigID, %REG_DWORD%, 0
+
+[i845G_SoftwareDeviceSettings]
+
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, ialmrnt5
+
+HKR,, VgaCompatible,                 %REG_DWORD%,    0
+;Disable Multifunction support
+HKR,,MultifunctionSupported, %REG_DWORD%, 0
+HKR,,NativeResolution, %REG_DWORD%, 1
+HKR,,NativeBPP, %REG_DWORD%, 1
+HKR,,ConfigID, %REG_DWORD%, 0
+
+[iGDG_SoftwareDeviceSettings]
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, ialmrnt5
+HKR,, VgaCompatible,                 %REG_DWORD%,    0
+;Enable Multifunction support
+HKR,,MultifunctionSupported, %REG_DWORD%, 1
+HKR,,NativeResolution, %REG_DWORD%, 1
+HKR,,NativeBPP, %REG_DWORD%, 1
+HKR,,ConfigID, %REG_DWORD%, 0
+
+[i865G_SoftwareDeviceSettings]
+
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, ialmrnt5
+
+HKR,, VgaCompatible,                 %REG_DWORD%,    0
+;Disable Multifunction support
+HKR,,MultifunctionSupported, %REG_DWORD%, 1
+HKR,,NativeResolution, %REG_DWORD%, 1
+HKR,,NativeBPP, %REG_DWORD%, 1
+HKR,,ConfigID, %REG_DWORD%, 0
+
+[iALV_SoftwareDeviceSettings]
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, ialmrnt5
+HKR,, VgaCompatible,                 %REG_DWORD%,    0
+;Enable Multifunction support
+HKR,,MultifunctionSupported, %REG_DWORD%, 1
+HKR,,NativeResolution, %REG_DWORD%, 1
+HKR,,NativeBPP, %REG_DWORD%, 1
+HKR,,ConfigID, %REG_DWORD%, 0
+
+[iMGM.GeneralConfigData]
+MaximumNumberOfDevices = 2
+MaximumDeviceMemoryConfiguration = 128
+
+[i845G.GeneralConfigData]
+MaximumNumberOfDevices = 1
+MaximumDeviceMemoryConfiguration = 128
+
+[iGDG0.GeneralConfigData]
+MaximumNumberOfDevices = 2
+MaximumDeviceMemoryConfiguration = 256
+
+[iGDG1.GeneralConfigData]
+MaximumNumberOfDevices = 2
+MaximumDeviceMemoryConfiguration = 256
+
+[i865G.GeneralConfigData]
+MaximumNumberOfDevices = 1
+MaximumDeviceMemoryConfiguration = 128
+
+[iALV0.GeneralConfigData]
+MaximumNumberOfDevices = 2
+MaximumDeviceMemoryConfiguration = 256
+
+[iALV1.GeneralConfigData]
+MaximumNumberOfDevices = 2
+MaximumDeviceMemoryConfiguration = 256
+
+[OpenGL.AddReg]
+HKLM,"Software\Microsoft\Windows NT\CurrentVersion\OpenGLDrivers\ialm","dll",%REG_SZ%,"ialmgicd"
+HKLM,"Software\Microsoft\Windows NT\CurrentVersion\OpenGLDrivers\ialm","Version",%REG_DWORD%,0x2
+HKLM,"Software\Microsoft\Windows NT\CurrentVersion\OpenGLDrivers\ialm","DriverVersion",%REG_DWORD%,0x1
+HKLM,"Software\Microsoft\Windows NT\CurrentVersion\OpenGLDrivers\ialm","Flags",%REG_DWORD%,0x3
+
+[Sprite.AddReg]
+HKLM,"Software\INTEL\Display","Sprite",%REG_DWORD%,0x1
+
+;
+; Source file information
+;
+
+[SourceDisksNames.x86]
+1 = %DiskId%,,,""
+
+[SourceDisksFiles]
+ialmnt5.sys  = 1
+iAlmCoIn.dll = 1
+
+ialmrnt5.dll = 1
+
+ialmdnt5.dll = 1
+ialmdev5.dll = 1
+ialmdd5.dll   = 1 
+ialmgicd.dll = 1
+ialmgdev.dll = 1
+
+ialmrem.dll = 1
+igfxress.dll=1	; Generic language resource file
+igfxrenu.lrc=1  ; American English language resource file
+igfxrara.lrc=1    ; Arabic language resource file
+igfxrarb.lrc=1    ; Arabic language resource file
+igfxrchs.lrc=1  ; Simplified Chinese language resource file
+igfxrcht.lrc=1  ; Traditional Chinese language resource file
+igfxrdan.lrc=1  ; Danish language resource file
+igfxrdeu.lrc=1  ; German language resource file
+igfxreng.lrc=1  ; UK English language resource file
+igfxresp.lrc=1  ; Spanish language resource file
+igfxrfin.lrc=1  ; Finish language resource file
+igfxrfra.lrc=1  ; French language resource file
+igfxrfrc.lrc=1  ; French Canadian language resource file
+igfxrheb.lrc=1    ; Hebrew Language Resource file
+igfxrita.lrc=1  ; Italian language resource file
+igfxrjpn.lrc=1  ; Japanese language resource file
+igfxrkor.lrc=1  ; Korean language resource file
+igfxrnld.lrc=1  ; Netherlands language resource file
+igfxrnor.lrc=1  ; Norwegian language resource file
+igfxrplk.lrc=1  ; Polish language resource file
+igfxrptb.lrc=1  ; Brazilian Portugese language resource file
+igfxrptg.lrc=1  ; Portugese language resource file
+igfxrrus.lrc=1  ; Russian language resource file
+igfxrsve.lrc=1  ; Sweedish language resource file
+igfxrtha.lrc=1  ; Thai language resource file
+igfxrcsy.lrc=1 ; Czechoslovakian language resource file
+igfxrell.lrc=1 ; Greek language resource file
+igfxrhun.lrc=1 ; Hungarian language resource file
+igfxrtrk.lrc=1 ; Turkish language resource file
+igfxhenu.lhp=1  ; American English language help file
+igfxhara.lhp=1  ; Arabic language help file
+igfxharb.lhp=1  ; Arabic language help file
+igfxhchs.lhp=1 ; Simplified Chinese language help file
+igfxhcht.lhp=1 ; Traditional Chinese language help file
+igfxhdan.lhp=1 ; Danish language help file
+igfxhdeu.lhp=1 ; German language help file
+igfxheng.lhp=1 ; UK English language help file
+igfxhesp.lhp=1 ; Spanish language help file
+igfxhfin.lhp=1 ; Finish language help file
+igfxhfra.lhp=1 ; French language help file
+igfxhfrc.lhp=1 ; French Canadian language help file
+igfxhheb.lhp=1 ; Hebrew Language help file
+igfxhita.lhp=1 ; Italian language help file
+igfxhjpn.lhp=1 ; Japanese language help file
+igfxhkor.lhp=1 ; Korean language help file
+igfxhnld.lhp=1 ; Netherlands language help file
+igfxhnor.lhp=1 ; Norwegian language help file
+igfxhplk.lhp=1 ; Polish language help file
+igfxhptb.lhp=1 ; Brazilian Portugese language help file
+igfxhptg.lhp=1 ; Portugese language help file
+igfxhrus.lhp=1 ; Russian language help file
+igfxhsve.lhp=1 ; Sweedish language help file
+igfxhtha.lhp=1 ; Thai language help file
+igfxhcsy.lhp=1 ; Czechoslovakian language help file
+igfxhell.lhp=1 ; Greek language help file
+igfxhhun.lhp=1 ; Hungarian language help file
+igfxhtrk.lhp=1 ; Turkish language help file
+hccutils.dll=1
+igfxsrvc.dll=1
+igfxpph.dll=1
+igfxeud.dll=1
+igfxcpl.cpl=1
+igfxcfg.exe=1
+igfxdiag.exe=1
+igfxdgps.dll=1
+igfxdev.dll=1
+igfxdo.dll=1
+igfxtray.exe=1
+igfxzoom.exe=1
+igfxhk.dll=1
+hkcmd.exe=1
+oemdspif.dll=1
+igfxext.exe=1
+igfxexps.dll=1
+;ialmnt5.cat
+
+[PC.DelReg]
+HKLM,"System\CurrentControlSet\SERVICES\IALM\DEVICE0","PC"
+
+[CUI.AddReg]
+;Add INTEL/CUI keys
+HKLM,"Software\INTEL"
+HKLM,%DisplayKey%
+HKLM,%CUIDeviceIndependentKey%
+
+; Device Independent registry location
+HKCR,"CLSID\{280A8F40-E382-11D2-B561-00A0C92E6848}",,,%CUIDeviceIndependentKey%
+
+; Add Diagnostic Pages with the rest of the pages
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Controls Folder\Display\shellex\PropertySheetHandlers\igfxcui",,,"{3AB1675A-CCFF-11D2-8B20-00A0C93CB1F4}"
+HKCR,"CLSID\{280A8F40-E382-11D2-B561-00A0C92E6848}\shellex\PropertyPageHandlers\igfxcfg\diagHandler",,,"{3AB167A5-CCFF-11D2-8B20-00A0C93CB1F4}"
+
+; Store resource information under %CUIDeviceIndependentKey%
+; as for 830M these all will come under device independent keys
+; Control panel resource
+HKLM,"%CUIDeviceIndependentKey%\igfxcpl\resources","468",,%11%"\igfxcfg.exe"
+; static pages resource
+HKLM,"%CUIDeviceIndependentKey%\igfxpph\resources","468",,%11%"\igfxcfg.exe"
+; Diagnostics resource
+HKLM,"%CUIDeviceIndependentKey%\igfxcfg\resources","560",,%11%"\igfxdiag.exe"
+; cfg resource
+HKLM,"%CUIDeviceIndependentKey%\igfxcfg\resources","468",,%11%"\igfxcfg.exe"
+HKLM,"%CUIDeviceIndependentKey%\igfxcfg\resources","829",,""
+; service resource
+HKLM,"%CUIDeviceIndependentKey%\igfxsrvc\resources","468",,%11%"\igfxcfg.exe"
+HKLM,"%CUIDeviceIndependentKey%\igfxsrvc\TrayIcon","ShowTrayIcon",%REG_DWORD%,1
+; tray resource
+HKLM,"%CUIDeviceIndependentKey%\igfxtray\resources","468",,%11%"\igfxcfg.exe"
+HKLM,"%CUIDeviceIndependentKey%\igfxtray\resources","467",,%11%"\igfxtray.exe"
+; hotkey resource
+HKLM,"%CUIDeviceIndependentKey%\hkcmd\resources","468",,%11%"\igfxcfg.exe"
+HKLM,"%CUIDeviceIndependentKey%\igfxhk\resources","468",,%11%"\igfxcfg.exe"
+;static pages resource
+HKLM,"%CUIDeviceIndependentKey%\igfxpph\resources","467",,%11%"\igfxtray.exe"
+
+;=============================================================================
+HKLM,"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify\igfxcui"
+HKLM,"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify\igfxcui","DLLName",%REG_SZ%,"igfxsrvc.dll"
+HKLM,"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify\igfxcui","Asynchronous",%REG_DWORD%,1
+HKLM,"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify\igfxcui","Impersonate",%REG_DWORD%,1
+HKLM,"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify\igfxcui","Unlock",%REG_SZ%,"WinlogonUnlockEvent"
+;=============================================================================
+
+; Class ID of the CUIDriver component.
+HKR,"DEFAULT","CUIDriver",,"{9CEE304E-DC6C-11D2-B561-00A0C92E6848}"
+
+; Context menu handler entry.
+HKCR, "Directory\Background\shellex\ContextMenuHandlers\igfxcui",,,"{3AB1675A-CCFF-11D2-8B20-00A0C93CB1F4}"
+;
+; Registration of CUI dll's:            These will not self-register through the have-disk install.
+;                                       Does not register TypeLibs or Interfaces.
+;
+; igfxcfg.exe self registration entries
+;
+HKCR,"AppID\{3D62E9A1-D243-11D2-B561-00A0C92E6848}",,,"igfxcfg"
+HKCR,"AppID\igfxcfg.EXE","AppID",,"{3D62E9A1-D243-11D2-B561-00A0C92E6848}"
+HKCR,"CLSID\{A354BD60-4C0A-11d3-B561-00A0C92E6848}",,,"DataObject Class"
+HKCR,"CLSID\{A354BD60-4C0A-11d3-B561-00A0C92E6848}","AppID",,"{3D62E9A1-D243-11D2-B561-00A0C92E6848}"
+HKCR,"CLSID\{A354BD60-4C0A-11d3-B561-00A0C92E6848}\ProgID",,,"igfxcfg.DataObject.1"
+HKCR,"CLSID\{A354BD60-4C0A-11d3-B561-00A0C92E6848}\VersionIndependentProgID",,,"igfxcfg.DataObject"
+HKCR,"CLSID\{A354BD60-4C0A-11d3-B561-00A0C92E6848}\LocalServer32",,,%11%"\igfxcfg.exe"
+HKCR,"CLSID\{EE2D6561-D63C-11D2-B561-00A0C92E6848}",,,"ShellExt Class"
+HKCR,"CLSID\{EE2D6561-D63C-11D2-B561-00A0C92E6848}","AppID",,"{3D62E9A1-D243-11D2-B561-00A0C92E6848}"
+HKCR,"CLSID\{EE2D6561-D63C-11D2-B561-00A0C92E6848}\ProgID",,,"igfxcfg.ShellExt.1"
+HKCR,"CLSID\{EE2D6561-D63C-11D2-B561-00A0C92E6848}\VersionIndependentProgID",,,"igfxcfg.ShellExt"
+HKCR,"CLSID\{EE2D6561-D63C-11D2-B561-00A0C92E6848}\Programmable",,,
+HKCR,"CLSID\{EE2D6561-D63C-11D2-B561-00A0C92E6848}\LocalServer32",,,%11%"\igfxcfg.exe"
+HKCR,"igfxcfg.DataObject.1",,,"DataObject Class"
+HKCR,"igfxcfg.DataObject.1\CLSID",,,"{A354BD60-4C0A-11d3-B561-00A0C92E6848}"
+HKCR,"igfxcfg.DataObject",,,"DataObject Class"
+HKCR,"igfxcfg.DataObject\CurVer",,,"igfxcfg.DataObject.1"
+HKCR,"igfxcfg.DataObject\CLSID",,,"{A354BD60-4C0A-11d3-B561-00A0C92E6848}"
+HKCR,"igfxcfg.ShellExt.1",,,"ShellExt Class"
+HKCR,"igfxcfg.ShellExt.1\CLSID",,,"{EE2D6561-D63C-11D2-B561-00A0C92E6848}"
+HKCR,"igfxcfg.ShellExt",,,"ShellExt Class"
+HKCR,"igfxcfg.ShellExt\CurVer",,,"igfxcfg.ShellExt.1"
+HKCR,"igfxcfg.ShellExt\CLSID",,,"{EE2D6561-D63C-11D2-B561-00A0C92E6848}"
+;
+; igfxdev.dll self registration entries
+;
+HKCR,"igfxdev.CUIDriver",,,"CUIDriver Class"
+HKCR,"igfxdev.CUIDriver\CLSID",,,"{9CEE304E-DC6C-11D2-B561-00A0C92E6848}"
+HKCR,"igfxdev.CUIDriver\CurVer",,,"igfxdev.CUIDriver.1"
+HKCR,"igfxdev.CUIDriver.1",,,"CUIDriver Class"
+HKCR,"igfxdev.CUIDriver.1\CLSID",,,"{9CEE304E-DC6C-11D2-B561-00A0C92E6848}"
+HKCR,"CLSID\{9CEE304E-DC6C-11D2-B561-00A0C92E6848}",,,"CUIDriver Class"
+HKCR,"CLSID\{9CEE304E-DC6C-11D2-B561-00A0C92E6848}\InProcServer32",,,%11%"\igfxdev.dll"
+HKCR,"CLSID\{9CEE304E-DC6C-11D2-B561-00A0C92E6848}\InProcServer32","ThreadingModel",,"Apartment"
+HKCR,"CLSID\{9CEE304E-DC6C-11D2-B561-00A0C92E6848}\ProgID",,,"igfxdev.CUIDriver.1"
+HKCR,"CLSID\{9CEE304E-DC6C-11D2-B561-00A0C92E6848}\VersionIndependentProgID",,,"igfxdev.CUIDriver"
+;
+; igfxdiag.exe self registration entries
+;
+HKCR,"igfx.DiagServices\CLSID",,,"{0EF91A8E-03D5-11D3-B995-00A0C9AD54B5}"
+HKCR,"igfx.DiagServices\CurVer",,,"igfx.DiagServices.1"
+HKCR,"igfx.DiagServices.1\CLSID",,,"{0EF91A8E-03D5-11D3-B995-00A0C9AD54B5}"
+HKCR,"CLSID\{0EF91A8E-03D5-11D3-B995-00A0C9AD54B5}",,,"DiagServices Class"
+HKCR,"CLSID\{0EF91A8E-03D5-11D3-B995-00A0C9AD54B5}\LocalServer32",,,%11%"\igfxdiag.exe"
+HKCR,"CLSID\{0EF91A8E-03D5-11D3-B995-00A0C9AD54B5}\ProgID",,,"igfx.DiagServices.1"
+HKCR,"CLSID\{0EF91A8E-03D5-11D3-B995-00A0C9AD54B5}\VersionIndependentProgID",,,"igfx.DiagServices"
+;
+;proxy stub for igfxdiag.exe
+;
+HKCR,"CLSID\{48E57D01-53BD-11D3-8EE0-00A0C984F371}",,,"PSFactoryBuffer"
+HKCR,"CLSID\{48E57D01-53BD-11D3-8EE0-00A0C984F371}\InProcServer32",,,%11%"\IGFXDGPS.DLL"
+HKCR,"CLSID\{48E57D01-53BD-11D3-8EE0-00A0C984F371}\InProcServer32","ThreadingModel",,"Both"
+HKCR,"Interface\{E0BA4EE3-03D5-11D3-B995-00A0C9AD54B5}",,,"ICUIMonitor"
+HKCR,"Interface\{E0BA4EE3-03D5-11D3-B995-00A0C9AD54B5}\ProxyStubClsid32",,,"{48E57D01-53BD-11D3-8EE0-00A0C984F371}"
+HKCR,"Interface\{E0BA4EE3-03D5-11D3-B995-00A0C9AD54B5}\NumMethods",,,"16"
+HKCR,"Interface\{E0BA4EE4-03D5-11D3-B995-00A0C9AD54B5}",,,"ICUITests"
+HKCR,"Interface\{E0BA4EE4-03D5-11D3-B995-00A0C9AD54B5}\ProxyStubClsid32",,,"{48E57D01-53BD-11D3-8EE0-00A0C984F371}"
+HKCR,"Interface\{E0BA4EE4-03D5-11D3-B995-00A0C9AD54B5}\NumMethods",,,"4"
+HKCR,"Interface\{48E57D01-53BD-11D3-8EE0-00A0C984F371}",,,"ICUIDiagController"
+HKCR,"Interface\{48E57D01-53BD-11D3-8EE0-00A0C984F371}\ProxyStubClsid32",,,"{48E57D01-53BD-11D3-8EE0-00A0C984F371}"
+HKCR,"Interface\{48E57D01-53BD-11D3-8EE0-00A0C984F371}\NumMethods",,,"13"
+HKCR,"Interface\{E0BA4EE2-03D5-11D3-B995-00A0C9AD54B5}",,,"ICUIAGP"
+HKCR,"Interface\{E0BA4EE2-03D5-11D3-B995-00A0C9AD54B5}\ProxyStubClsid32",,,"{48E57D01-53BD-11D3-8EE0-00A0C984F371}"
+HKCR,"Interface\{E0BA4EE2-03D5-11D3-B995-00A0C9AD54B5}\NumMethods",,,"14"
+HKCR,"Interface\{E0BA4EE1-03D5-11D3-B995-00A0C9AD54B5}",,,"ICUIPCI"
+HKCR,"Interface\{E0BA4EE1-03D5-11D3-B995-00A0C9AD54B5}\ProxyStubClsid32",,,"{48E57D01-53BD-11D3-8EE0-00A0C984F371}"
+HKCR,"Interface\{E0BA4EE1-03D5-11D3-B995-00A0C9AD54B5}\NumMethods",,,"13"
+HKCR,"Interface\{C562A581-4989-11D3-8EE0-00A0C984F371}",,,"ICUIDriverInfo"
+HKCR,"Interface\{C562A581-4989-11D3-8EE0-00A0C984F371}\ProxyStubClsid32",,,"{48E57D01-53BD-11D3-8EE0-00A0C984F371}"
+HKCR,"Interface\{C562A581-4989-11D3-8EE0-00A0C984F371}\NumMethods",,,"7"
+HKCR,"Interface\{E0BA4EE5-03D5-11D3-B995-00A0C9AD54B5}",,,"ICUIReport"
+HKCR,"Interface\{E0BA4EE5-03D5-11D3-B995-00A0C9AD54B5}\ProxyStubClsid32",,,"{48E57D01-53BD-11D3-8EE0-00A0C984F371}"
+HKCR,"Interface\{E0BA4EE5-03D5-11D3-B995-00A0C9AD54B5}\NumMethods",,,"4"
+HKCR,"Interface\{0EF91A8D-03D5-11D3-B995-00A0C9AD54B5}",,,"IDiagServices"
+HKCR,"Interface\{0EF91A8D-03D5-11D3-B995-00A0C9AD54B5}\ProxyStubClsid32",,,"{48E57D01-53BD-11D3-8EE0-00A0C984F371}"
+HKCR,"Interface\{0EF91A8D-03D5-11D3-B995-00A0C9AD54B5}\NumMethods",,,"5"
+HKCR,"Interface\{1D775861-25C6-11D4-ACA5-00A0C9AD5629}",,,"IDiagServices2"
+HKCR,"Interface\{1D775861-25C6-11D4-ACA5-00A0C9AD5629}\ProxyStubClsid32",,,"{48E57D01-53BD-11D3-8EE0-00A0C984F371}"
+HKCR,"Interface\{1D775861-25C6-11D4-ACA5-00A0C9AD5629}\NumMethods",,,"11"
+HKCR,"Interface\{7D8A8461-25C2-11D4-ACA5-00A0C9AD5629}",,,"ICUIMonitor2"
+HKCR,"Interface\{7D8A8461-25C2-11D4-ACA5-00A0C9AD5629}\ProxyStubClsid32",,,"{48E57D01-53BD-11D3-8EE0-00A0C984F371}"
+HKCR,"Interface\{7D8A8461-25C2-11D4-ACA5-00A0C9AD5629}\NumMethods",,,"16"
+;
+; igfxsrvc.dll self registration entries
+;
+HKCR,"igfx.CUIService",,,"CUIService Class"
+HKCR,"igfx.CUIService\CLSID",,,"{0F195FA1-CCF0-11D2-8B20-00A0C93CB1F4}"
+HKCR,"igfx.CUIService\CurVer",,,"igfx.CUIService.1"
+HKCR,"igfx.CUIService.1",,,"CUIService Class"
+HKCR,"igfx.CUIService.1\CLSID",,,"{0F195FA1-CCF0-11D2-8B20-00A0C93CB1F4}"
+HKCR,"CLSID\{0F195FA1-CCF0-11D2-8B20-00A0C93CB1F4}",,,"CUIService Class"
+HKCR,"CLSID\{0F195FA1-CCF0-11D2-8B20-00A0C93CB1F4}\InProcServer32",,,%11%"\igfxsrvc.dll"
+HKCR,"CLSID\{0F195FA1-CCF0-11D2-8B20-00A0C93CB1F4}\InProcServer32","ThreadingModel",,"Apartment"
+HKCR,"CLSID\{0F195FA1-CCF0-11D2-8B20-00A0C93CB1F4}\ProgID",,,"igfx.WindowsData.1"
+HKCR,"CLSID\{0F195FA1-CCF0-11D2-8B20-00A0C93CB1F4}\VersionIndependentProgID",,,"igfx.CUIService"
+HKCR,"CLSID\{0F195FA1-CCF0-11D2-8B20-00A0C93CB1F4}\Programmable",,,
+;
+; CUITestConfig CLass
+;
+HKCR,"igfx.CUITestConfig",,,"CUITestConfig Class"
+HKCR,"igfx.CUITestConfig\CLSID",,,"{97DC3661-693D-11d4-B561-00A0C92E6848}"
+HKCR,"igfx.CUITestConfig\CurVer",,,"igfx.CUITestConfig.1"
+HKCR,"igfx.CUITestConfig.1",,,"CUITestConfig Class"
+HKCR,"igfx.CUITestConfig.1\CLSID",,,"c"
+HKCR,"CLSID\{97DC3661-693D-11d4-B561-00A0C92E6848}",,,"CUITestConfig Class"
+HKCR,"CLSID\{97DC3661-693D-11d4-B561-00A0C92E6848}\InProcServer32",,,%11%"\igfxsrvc.dll"
+HKCR,"CLSID\{97DC3661-693D-11d4-B561-00A0C92E6848}\InProcServer32","ThreadingModel",,"Apartment"
+HKCR,"CLSID\{97DC3661-693D-11d4-B561-00A0C92E6848}\ProgID",,,"igfx.CUITestConfig.1"
+HKCR,"CLSID\{97DC3661-693D-11d4-B561-00A0C92E6848}\VersionIndependentProgID",,,"igfx.CUITestConfig"
+HKCR,"CLSID\{97DC3661-693D-11d4-B561-00A0C92E6848}\Programmable",,,
+;
+; igfxpph.dll self registration entries
+;
+HKCR,"igfxpph.GraphicsShellExt",,,"GraphicsShellExt Class"
+HKCR,"igfxpph.GraphicsShellExt\CLSID",,,"{3AB1675A-CCFF-11D2-8B20-00A0C93CB1F4}"
+HKCR,"igfxpph.GraphicsShellExt\CurVer",,,"igfxpph.GraphicsShellExt.1"
+HKCR,"igfxpph.GraphicsShellExt.1",,,"GraphicsShellExt Class"
+HKCR,"igfxpph.GraphicsShellExt.1\CLSID",,,"{3AB1675A-CCFF-11D2-8B20-00A0C93CB1F4}"
+HKCR,"CLSID\{3AB1675A-CCFF-11D2-8B20-00A0C93CB1F4}",,,"GraphicsShellExt Class"
+HKCR,"CLSID\{3AB1675A-CCFF-11D2-8B20-00A0C93CB1F4}\InProcServer32",,,%11%"\igfxpph.dll"
+HKCR,"CLSID\{3AB1675A-CCFF-11D2-8B20-00A0C93CB1F4}\InProcServer32","ThreadingModel",,"Apartment"
+HKCR,"CLSID\{3AB1675A-CCFF-11D2-8B20-00A0C93CB1F4}\ProgID",,,"igfxpph.GraphicsShellExt.1"
+HKCR,"CLSID\{3AB1675A-CCFF-11D2-8B20-00A0C93CB1F4}\VersionIndependentProgID",,,"igfxpph.GraphicsShellExt"
+HKCR,"CLSID\{3AB1675A-CCFF-11D2-8B20-00A0C93CB1F4}\Programmable",,,
+;
+; igfxeud.dll self registration entries
+;
+HKCR,"igfxeud.EndUserShellExt",,,"EndUserShellExt Class"
+HKCR,"igfxeud.EndUserShellExt\CLSID",,,"{3AB167A5-CCFF-11D2-8B20-00A0C93CB1F4}"
+HKCR,"igfxeud.EndUserShellExt\CurVer",,,"igfxeud.EndUserShellExt.1"
+HKCR,"igfxeud.EndUserShellExt.1",,,"EndUserShellExt Class"
+HKCR,"igfxeud.EndUserShellExt.1\CLSID",,,"{3AB167A5-CCFF-11D2-8B20-00A0C93CB1F4}"
+HKCR,"CLSID\{3AB167A5-CCFF-11D2-8B20-00A0C93CB1F4}",,,"EndUserShellExt Class"
+HKCR,"CLSID\{3AB167A5-CCFF-11D2-8B20-00A0C93CB1F4}\InProcServer32",,,%11%"\igfxeud.dll"
+HKCR,"CLSID\{3AB167A5-CCFF-11D2-8B20-00A0C93CB1F4}\InProcServer32","ThreadingModel",,"Apartment"
+HKCR,"CLSID\{3AB167A5-CCFF-11D2-8B20-00A0C93CB1F4}\ProgID",,,"igfxeud.EndUserShellExt.1"
+HKCR,"CLSID\{3AB167A5-CCFF-11D2-8B20-00A0C93CB1F4}\VersionIndependentProgID",,,"igfxeud.EndUserShellExt"
+HKCR,"CLSID\{3AB167A5-CCFF-11D2-8B20-00A0C93CB1F4}\Programmable",,,
+
+;
+; Igfxdo.dll self registration entries
+;
+HKCR,"Igfxdo.DataObject",,,"DataObject Class"
+HKCR,"Igfxdo.DataObject\CLSID",,,"{D4FA3D4E-BE69-11D4-AA30-00902704C6BF}"
+HKCR,"Igfxdo.DataObject\CurVer",,,"Igfxdo.DataObject.1"
+HKCR,"Igfxdo.DataObject.1",,,"DataObject Class"
+HKCR,"Igfxdo.DataObject.1\CLSID",,,"{D4FA3D4E-BE69-11D4-AA30-00902704C6BF}"
+HKCR,"CLSID\{D4FA3D4E-BE69-11D4-AA30-00902704C6BF}",,,"DataObject Class"
+HKCR,"CLSID\{D4FA3D4E-BE69-11D4-AA30-00902704C6BF}\InProcServer32",,,%11%"\igfxdo.dll"
+HKCR,"CLSID\{D4FA3D4E-BE69-11D4-AA30-00902704C6BF}\InProcServer32","ThreadingModel",,"Apartment"
+HKCR,"CLSID\{D4FA3D4E-BE69-11D4-AA30-00902704C6BF}\ProgID",,,"Igfxdo.DataObject.1"
+HKCR,"CLSID\{D4FA3D4E-BE69-11D4-AA30-00902704C6BF}\VersionIndependentProgID",,,"Igfxdo.DataObject"
+HKCR,"CLSID\{D4FA3D4E-BE69-11D4-AA30-00902704C6BF}\Programmable",,,
+;
+; igfxtray.exe execution on startup
+;
+HKLM,Software\Microsoft\Windows\CurrentVersion\Run,IgfxTray,,%11%"\igfxtray.exe"
+HKLM,Software\Microsoft\Windows\CurrentVersion\Run,HotKeysCmds,,%11%"\hkcmd.exe"
+;
+; igfxhk.dll self registration entries
+;
+HKCR,"igfxhk.HotKey",,,"HotKey Class"
+HKCR,"igfxhk.HotKey\CLSID",,,"{235CC099-CFB4-44D9-8228-270FEE479D8A}"
+HKCR,"igfxhk.HotKey\CurVer",,,"igfxhk.HotKey.1"
+HKCR,"igfxhk.HotKey.1",,,"HotKey Class"
+HKCR,"igfxhk.HotKey.1\CLSID",,,"{235CC099-CFB4-44D9-8228-270FEE479D8A}"
+HKCR,"CLSID\{235CC099-CFB4-44D9-8228-270FEE479D8A}",,,"HotKey Class"
+HKCR,"CLSID\{235CC099-CFB4-44D9-8228-270FEE479D8A}\InProcServer32",,,%11%"\igfxhk.dll"
+HKCR,"CLSID\{235CC099-CFB4-44D9-8228-270FEE479D8A}\InProcServer32","ThreadingModel",,"Apartment"
+HKCR,"CLSID\{235CC099-CFB4-44D9-8228-270FEE479D8A}\ProgID",,,"igfxhk.HotKey.1"
+HKCR,"CLSID\{235CC099-CFB4-44D9-8228-270FEE479D8A}\VersionIndependentProgID",,,"igfxhk.HotKey"
+
+;
+; Entries for receiving winlogon unlock event
+;
+HKLM,"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify\igfxcui","DLLName",%REG_SZ%,"igfxsrvc.dll"
+HKLM,"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify\igfxcui","Asynchronous",%REG_DWORD%,1
+HKLM,"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify\igfxcui","Impersonate",%REG_DWORD%,1
+HKLM,"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify\igfxcui","Unlock",%REG_SZ%,"WinlogonUnlockEvent"
+
+; Remove CUI Zoom page option 
+;HKLM,"%CUIDeviceIndependentKey%\igfxcfg\resources\2610","469",,"exclude"
+
+; Remove CUI Zoom Menu option 
+;HKLM,"%CUIDeviceIndependentKey%\igfxpph\resources","2621",,"None"
+
+; To hide the entry of Enable/Disable Zoom in the hotkeys page 
+;HKLM,"%CUIDeviceIndependentKey%\igfxcfg\resources","2611",,""
+
+; Disable Hot Key action 
+;HKLM,"%CUIDeviceIndependentKey%\igfxsrvc\resources","2658",,"Disable"
+
+[UninstallMGM_AddReg]
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","UninstallString",,"RUNDLL32.EXE %11%\ialmrem.dll,UninstallW2KIGfx PCI\VEN_8086&DEV_3582"
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","DisplayName",,"Intel(R) Extreme Graphics 2 Driver"
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","ModifyPath",,"FALSE"
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","NoModify",%REG_DWORD%,0x1
+
+[Uninstall845G_AddReg]
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","UninstallString",,"RUNDLL32.EXE %11%\ialmrem.dll,UninstallW2KIGfx PCI\VEN_8086&DEV_2562"
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","DisplayName",,"Intel(R) Extreme Graphics Driver"
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","ModifyPath",,"FALSE"
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","NoModify",%REG_DWORD%,0x1
+
+[UninstallSPDG_AddReg]
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","UninstallString",,"RUNDLL32.EXE %11%\ialmrem.dll,UninstallW2KIGfx PCI\VEN_8086&DEV_2572"
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","DisplayName",,"Intel(R) Extreme Graphics 2 Driver"
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","ModifyPath",,"FALSE"
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","NoModify",%REG_DWORD%,0x1
+
+[UninstallGDG0_AddReg]
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","UninstallString",,"RUNDLL32.EXE %11%\ialmrem.dll,UninstallW2KIGfx2ID PCI\VEN_8086&DEV_2782 PCI\VEN_8086&DEV_2582"
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","DisplayName",,"Intel(R) Graphics Media Accelerator Driver"
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","ModifyPath",,"FALSE"
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","NoModify",%REG_DWORD%,0x1
+
+[UninstallGDG1_AddReg]
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","UninstallString",,"RUNDLL32.EXE %11%\ialmrem.dll,UninstallW2KIGfx2ID PCI\VEN_8086&DEV_2782 PCI\VEN_8086&DEV_2582"
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","DisplayName",,"Intel(R) Graphics Media Accelerator Driver"
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","ModifyPath",,"FALSE"
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","NoModify",%REG_DWORD%,0x1
+
+[UninstallALV0_AddReg]
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","UninstallString",,"RUNDLL32.EXE %11%\ialmrem.dll,UninstallW2KIGfx2ID PCI\VEN_8086&DEV_2792 PCI\VEN_8086&DEV_2592"
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","DisplayName",,"Intel(R) Graphics Media Accelerator Driver for Mobile"
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","ModifyPath",,"FALSE"
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","NoModify",%REG_DWORD%,0x1
+
+[UninstallALV1_AddReg]
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","UninstallString",,"RUNDLL32.EXE %11%\ialmrem.dll,UninstallW2KIGfx2ID PCI\VEN_8086&DEV_2792 PCI\VEN_8086&DEV_2592"
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","DisplayName",,"Intel(R) Graphics Media Accelerator Driver for Mobile"
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","ModifyPath",,"FALSE"
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\{8A708DD8-A5E6-11D4-A706-000629E95E20}","NoModify",%REG_DWORD%,0x1
+;
+; Begin of CUISDK Sections
+;
+
+[CUISDK.Copy]
+igfxext.exe	; CUI SDK
+igfxexps.dll  ; CUI SDK proxy stub
+
+[CUISDK.DelFiles]
+
+[CUISDK.AddReg]
+;
+; igfxext.exe self registration entries
+;
+HKCR,"IgfxExt.CUIExternal\CLSID",,,"{7160A13D-73DA-4CEA-95B9-37356478588A}"
+HKCR,"IgfxExt.CUIExternal\CurVer",,,"IgfxExt.CUIExternal.1"
+HKCR,"IgfxExt.CUIExternal.1\CLSID",,,"{7160A13D-73DA-4CEA-95B9-37356478588A}"
+HKCR,"CLSID\{7160A13D-73DA-4CEA-95B9-37356478588A}",,,"CUIExternal Class"
+HKCR,"CLSID\{7160A13D-73DA-4CEA-95B9-37356478588A}\LocalServer32",,,%11%"\igfxext.exe"
+HKCR,"CLSID\{7160A13D-73DA-4CEA-95B9-37356478588A}\ProgID",,,"IgfxExt.CUIExternal.1"
+HKCR,"CLSID\{7160A13D-73DA-4CEA-95B9-37356478588A}\VersionIndependentProgID",,,"IgfxExt.CUIExternal"
+;
+
+;
+;proxy stub for igfxext.exe (igfxexps.dll)
+;
+HKCR,"CLSID\{27E7234F-429F-4787-AC8F-8AADDED01355}",,,"PSFactoryBuffer"
+HKCR,"CLSID\{27E7234F-429F-4787-AC8F-8AADDED01355}\InProcServer32",,,%11%"\IGFXEXPS.DLL"
+HKCR,"CLSID\{27E7234F-429F-4787-AC8F-8AADDED01355}\InProcServer32","ThreadingModel",,"Both"
+
+HKCR,"Interface\{F4C4B98D-F59E-4a0c-AEE9-801E0CDB671E}",,,"ICUIExtClientNotify"
+HKCR,"Interface\{F4C4B98D-F59E-4a0c-AEE9-801E0CDB671E}\ProxyStubClsid32",,,"{27E7234F-429F-4787-AC8F-8AADDED01355}"
+HKCR,"Interface\{F4C4B98D-F59E-4a0c-AEE9-801E0CDB671E}\NumMethods",,,"1"
+
+HKCR,"Interface\{27E7234F-429F-4787-AC8F-8AADDED01355}",,,"ICUIExternal2"
+HKCR,"Interface\{27E7234F-429F-4787-AC8F-8AADDED01355}\ProxyStubClsid32",,,"{27E7234F-429F-4787-AC8F-8AADDED01355}"
+HKCR,"Interface\{27E7234F-429F-4787-AC8F-8AADDED01355}\NumMethods",,,"8"
+
+HKCR,"Interface\{70F8C65F-06AA-443b-9E6B-7C73808F07E5}",,,"ICUIExternal3"
+HKCR,"Interface\{70F8C65F-06AA-443b-9E6B-7C73808F07E5}\ProxyStubClsid32",,,"{27E7234F-429F-4787-AC8F-8AADDED01355}"
+HKCR,"Interface\{70F8C65F-06AA-443b-9E6B-7C73808F07E5}\NumMethods",,,"2"
+
+HKCR,"Interface\{3473E05A-3317-4df5-9098-E5387C94D1B0}",,,"ICUIExternalDual"
+HKCR,"Interface\{3473E05A-3317-4df5-9098-E5387C94D1B0}\ProxyStubClsid32",,,"{27E7234F-429F-4787-AC8F-8AADDED01355}"
+HKCR,"Interface\{3473E05A-3317-4df5-9098-E5387C94D1B0}\NumMethods",,,"0"
+
+HKCR,"Interface\{5DC5B31E-0C28-4679-B8D8-32CF2F9BACED}",,,"ICUIExternal4"
+HKCR,"Interface\{5DC5B31E-0C28-4679-B8D8-32CF2F9BACED}\ProxyStubClsid32",,,"{27E7234F-429F-4787-AC8F-8AADDED01355}"
+HKCR,"Interface\{5DC5B31E-0C28-4679-B8D8-32CF2F9BACED}\NumMethods",,,"7"
+
+HKCR,"Interface\{A05C525D-B4CB-4108-BFF7-1ACF1A14F00A}",,,"ICUIExternal5"
+HKCR,"Interface\{A05C525D-B4CB-4108-BFF7-1ACF1A14F00A}\ProxyStubClsid32",,,"{27E7234F-429F-4787-AC8F-8AADDED01355}"
+HKCR,"Interface\{A05C525D-B4CB-4108-BFF7-1ACF1A14F00A}\NumMethods",,,"5"
+
+[CUISDK.DelReg]
+HKR,Igfxext
+
+;
+; End of CUISDK Sections
+;
+[Strings]
+;
+; Customizable Strings
+;
+CUIDeviceIndependentKey="Software\Intel\Display\igfxcui"
+DisplayKey="Software\Intel\Display"
+CUIDriverOldShareKey="Software\Intel\CUI"
+
+;
+; Non-Localizable Strings
+;
+
+REG_SZ         = 0x00000000
+REG_MULTI_SZ   = 0x00010000
+REG_DWORD      = 0x00010001
+SERVICEROOT    = "System\CurrentControlSet\Services"
+
+;
+; Localizable Strings
+;
+
+DiskId          = "Intel(R) Graphics Media Accelerator Driver"
+Intel           = "Intel Corporation"
+iBKDG           = "Intel(R) 82845G/GL/GE/PE/GV Graphics Controller"
+iMGM            = "Intel(R) 82852/82855 GM/GME Graphics Controller"
+iSDG            = "Intel(R) 82865G Graphics Controller"
+iGDGD0          = "Intel(R) 82915G/GV/910GL Express Chipset Family"
+iGDGD1          = "Intel(R) 82915G/GV/910GL Express Chipset Family"
+iALVD0          = "Mobile Intel(R) 915GM/GMS,910GML Express Chipset Family"
+iALVD1          = "Mobile Intel(R) 915GM/GMS,910GML Express Chipset Family"

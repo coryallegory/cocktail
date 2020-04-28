@@ -1,0 +1,63 @@
+17 Sep 2008 12:26:35.250 [Info] Game Launcher v0.9.8
+17 Sep 2008 12:26:35.250 [Info] Allegro 4.0.1, djgpp
+17 Sep 2008 12:26:35.250 [Info] Using screen resolution of 640x480
+17 Sep 2008 12:26:35.250 [Info] OS type: Windows 98
+17 Sep 2008 12:26:35.250 [Info] Platform: djgpp
+17 Sep 2008 12:26:35.250 [Info] Installing joystick
+17 Sep 2008 12:26:35.300 [Info] Installed mouse
+17 Sep 2008 12:26:35.300 [Warn] Joystick not detected
+17 Sep 2008 12:26:35.410 [Info] Sound card type: SB Pro (8 bit stereo)
+17 Sep 2008 12:26:35.580 [Info] Graphics driver: VESA 3.0
+17 Sep 2008 12:26:35.580 [Info] Description: VESA 3.0 (SiS), linear
+17 Sep 2008 12:26:35.630 [Info] Using page flipping
+17 Sep 2008 12:26:35.630 [Info] No background music
+17 Sep 2008 12:26:35.630 [Info] Loading font: slicker.ttf
+17 Sep 2008 12:26:35.800 [Info] Font loaded
+17 Sep 2008 12:26:35.800 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for movable bitmap
+17 Sep 2008 12:26:35.850 [Info] No HW blit: memory bitmap for screen shot
+17 Sep 2008 12:26:36.070 [Info] Starting engine loop
+17 Sep 2008 12:26:39.860 [Info] Game selected: <xevious>
+17 Sep 2008 12:26:39.860 [Info] Emulator: <MAME>
+17 Sep 2008 12:26:39.860 [Info] Directory: <c:\mame>
+17 Sep 2008 12:26:39.860 [Info] Pre-command: <>
+17 Sep 2008 12:26:39.860 [Info] Post-command: <>
+17 Sep 2008 12:26:39.860 [Info] Command: <mame.exe xevious  >
+17 Sep 2008 12:26:40.140 [Info] Average FPS: 48.75
+17 Sep 2008 12:26:40.140 [Info] Exitting
+17 Sep 2008 12:26:40.140 [Info] Cleaning up Launcher_Controller
+17 Sep 2008 12:26:40.360 [Info] Cleaning up Launcher_Controller: Done

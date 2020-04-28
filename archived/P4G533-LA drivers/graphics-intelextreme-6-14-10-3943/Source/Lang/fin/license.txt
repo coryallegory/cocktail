@@ -1,0 +1,66 @@
+INTEL-OHJELMISTON KÄYTTÖOIKEUSSOPIMUS (OEM/IHV/ISV-jakelu ja yksittäiskäyttäjä)
+
+TÄRKEÄÄ - LUE ENNEN KOPIOINTIA, ASENNUSTA TAI KÄYTTÖÄ. 
+Älä käytä tai lataa tätä ohjelmistoa tai mitään siihen liittyvää aineistoa (joihin viitataan yhteisnimellä "ohjelmisto") ennen kuin olet lukenut huolellisesti seuraavat ehdot. Lataamalla ohjelmiston tai käyttämällä sitä hyväksyt tämän sopimuksen ehdot. Jos et halua hyväksyä niitä, älä asenna tai käytä ohjelmistoa.
+
+Huomaa myös:
+* Jos olette alkuperäinen laitevalmistaja (OEM), itsenäinen laitejakelija (IHV) tai itsenäinen ohjelmistojakelija (ISV), soveltuu teihin koko tämä KÄYTTÖOIKEUSSOPIMUS;
+* Jos olet loppukäyttäjä, soveltuu teihin vain näyte A, INTEL-OHJELMISTON KÄYTTÖOIKEUSSOPIMUS.
+
+Valmistajille ja jakelijoille:
+
+KÄYTTÖOIKEUSSOPIMUS. Ohjelmistolle myönnetään käyttöoikeus vain yhdessä Intelin komponenttituotteiden kanssa. Tässä sopimuksessa ei myönnetä ohjelmistolle käyttöoikeutta muiden kuin Intelin komponenttituotteiden kanssa. Tämän sopimuksen ehtojen mukaisesti Intel myöntää teille ei-yksinomaisen, ei-siirrettävän, maailmanlaajuisen, täysin maksetun käyttöoikeuden Intelin tekijänoikeuksien puitteissa:
+	a) käyttää, muuttaa ja kopioida ohjelmistotuotetta sisäisesti omiin kehitys- ja ylläpitotarkoituksiinne;
+	b) muuttaa, kopioida ja jakaa ohjelmistotuotetta, mukaan lukien sen johdokset, omille loppukäyttäjillenne, mutta vain sellaisen käyttöoikeussopimuksen puitteissa, jonka ehdot ovat vähintään yhtä rajoittavat kuin ne, jotka sisältyvät Intelin lopulliseen, oheisen näytteen A mukaiseen yksittäiskäyttäjän käyttöoikeussopimukseen, ja
+	c) muuttaa, kopioida ja jakaa ohjelmistotuotteen mukana mahdollisesti tulevaa loppukäyttäjän dokumentaatiota, mutta vain ohjelmistotuotteen yhteydessä.
+
+Jos ette ole ohjelmistotuotteen sisältävän tietokonejärjestelmän tai ohjelman lopullinen valmistaja tai jakelija, voitte siirtää kopion ohjelmistotuotteesta, mukaan lukien sen johdokset (ja niihin liittyvän loppukäyttäjän dokumentaation) vastaanottajallenne käytettäväksi tämän sopimuksen ehtojen mukaisesti, edellyttäen, että niiden vastaanottaja hyväksyy kyseisten ehtojen sitovan itseään täydellisesti. Ette saa muutoin luovuttaa tai vuokrata ohjelmistoa tai myöntää siihen edelleen käyttöoikeutta, ettekä muulla keinoin siirtää tai paljastaa ohjelmistotuotetta kenellekään kolmannelle osapuolelle. Ette saa purkaa tai hajottaa ohjelmistotuotteen koodia millään tavalla sen valmistustavan selvittämiseksi.
+
+Teille ei myönnetä mitään käyttöoikeutta tai oikeutta suoraan tai epäsuorasti, paitsi mitä tässä sopimuksessa erityisesti todetaan. Intelillä on oikeus tarkastaa tai tarkastuttaa riippumattomalla tilintarkastajalla teidän asiaankuuluva kirjanpitonne varmistaakseen, että noudatatte tämän sopimuksen ehtoja.
+
+LUOTTAMUKSELLISUUS. Jos haluatte ulkopuolisen konsultin tai aliurakoitsijan ("urakoitsija") suorittavan puolestanne työtä, johon liittyy ohjelmistoon tutustuminen tai sen käyttö, teidän on hankittava urakoitsijalta kirjallinen luottamuksellisuussopimus, jonka sisältämät ehdot ja velvollisuudet ohjelmistoon tutustumisen ja sen käytön suhteen ovat vähintään yhtä rajoittavat kuin tämän sopimuksen ehdot ja velvollisuudet eivätkä myönnä jakeluoikeuksia tai käyttöoikeutta mihinkään muuhun tarkoitukseen.
+Muutoin ette saa paljastaa tämän sopimuksen ehtoja tai olemassaoloa tai käyttää Intelin nimeä missään julkaisuissa, mainoksissa tai muissa ilmoituksissa ilman Intelin etukäteen antamaa kirjallista lupaa. Teillä ei ole oikeutta käyttää mitään Intelin tavaramerkkejä tai logoja.
+
+OHJELMISTON OMISTUS- JA TEKIJÄNOIKEUDET. Omistusoikeus kaikkiin ohjelmiston kopioihin säilyy Intelillä tai sen alihankkijoilla. Yhdysvaltain ja muiden maiden lait sekä kansainväliset sopimukset suojaavat tämän ohjelmiston tekijänoikeuksia. Ohjelmistosta ei saa poistaa mitään tekijänoikeusmerkintöjä. Intel voi tehdä ohjelmistoon tai siinä viitattuihin kohteisiin muutoksia koska tahansa siitä ilmoittamatta, mutta ei ole velvollinen tukemaan tai päivittämään ohjelmistoa. Paitsi jos nimenomaan toisin todetaan, Intel ei myönnä mitään suoraa tai seuraamuksellista oikeutta Intelin patentteihin, tekijänoikeuksiin, tavaramerkkeihin tai muihin immateriaalioikeuksiin. Asiakas voi siirtää ohjelmiston vain, jos sen vastaanottaja sitoutuu täysin näihin ehtoihin eikä asiakas pidä itsellään mitään kopioita ohjelmistosta.
+
+RAJOITETTU VÄLINETAKUU . Jos Intel on toimittanut ohjelmiston fyysisellä tallennusvälineellä, Intel takaa välineen olevan vapaa olennaisista fyysisistä vioista yhdeksänkymmenen (90) päivän ajan siitä, kun Intel on sen toimittanut. Jos sellainen vika löytyy, palauta väline Intelille, jolloin Intel korvaa sen uudella tai toimittaa ohjelmiston vaihtoehtoisella tavalla Intelin harkinnan mukaan.
+
+EI MUITA TAKUITA. PAITSI MITÄ YLLÄ TODETAAN, OHJELMISTO TOIMITETAAN "SELLAISENA KUIN SE ON" ILMAN MITÄÄN SUORAAN TAI EPÄSUORAAN ILMAISTUA TAKUUTA MUKAAN LUKIEN TAKUUN SOVELTUVUUDESTA KAUPANKÄYNNIN KOHTEEKSI, OIKEUKSIEN LOUKKAAMATTOMUUDESTA TAI SOVELTUVUUDESTA JOHONKIN ERITYISEEN TARKOITUKSEEN. Intel ei myönnä tai hyväksy vastuuta minkään tämän ohjelmiston sisältämien tietojen, tekstin, grafiikan, linkkien tai muun sisällön tarkkuudesta tai täydellisyydestä.
+
+VASTUUNRAJOITUS. INTEL TAI SEN ALIHANKKIJAT EIVÄT OLE MISSÄÄN TAPAUKSESSA VASTUUSSA MISTÄÄN VAHINGOISTA (MUKAAN LUKIEN RAJOITUKSETTA MENETETYT LIIKE VOITOT, LIIKETOIMINNAN KESKEYTYMINEN TAI TIETOJEN MENETTÄMINEN), JOTKA AIHEUTUVAT OHJELMISTON KÄYTÖSTÄ TAI SEN KÄYTÖN ESTYMISESTÄ, VAIKKA INTELIÄ OLISI VAROITETTU SELLAISTEN VAHINKOJEN MAHDOLLISUUDESTA. KOSKA JOTKUT LAINKÄYTTÖALUEET EIVÄT SALLI VAHINGONKORVAUSVASTUUN POISSULKEMISTA TAI RAJOITTAMISTA EPÄSUORAN TAKUUN TAI SEURAAMUKSELLISTEN TAI SATUNNAISTEN VAHINKOJEN OSALTA, YLLÄMAINITUT RAJOITUKSET EIVÄT KOSKE KAIKKIA ASIAKKAITA. ASIAKKAALLA VOI OLLA MYÖS MUITA LAKISÄÄTEISIÄ OIKEUKSIA, JOTKA VAIHTELEVAT LAINKÄYTTÖALUEITTAIN. 
+
+SOPIMUKSEN IRTISANOMINEN. Jos asiakas ei noudata tämän sopimuksen ehtoja, Intel voi sanoa sen irti koska tahansa. Irtisanomisen yhteydessä asiakkaan on välittömästi tuhottava ohjelmisto tai palautettava kaikki ohjelmiston kopiot Intelille.
+ 
+SOVELLETTAVAT LAIT. Tämän sopimuksen mukaiset vaateet ovat Kalifornian lain alaisia, lukuun ottamatta periaatteita ristiriitaisista laeista sekä YK:n yleissopimusta kansainvälistä tavaran kauppaa koskevista sopimuksista. Asiakas ei saa viedä ohjelmistoa sovellettavien vientilakien tai -asetusten vastaisesti. Inteliä ei velvoita mitkään muut sopimukset, paitsi jos ne ovat kirjallisia ja Intelin valtuuttaman edustajan allekirjoittamia.
+
+VIRANOMAISTEN RAJOITETUT OIKEUDET. Ohjelmisto toimitetaan "RAJOITETUILLA OIKEUKSILLA." Viranomaisten ohjelmiston käyttöä, monistusta ja julkistusta rajoittavat säädökset FAR52.227-14 ja DFAR252.227-7013 et seq. tai ne korvaavat säädökset. Viranomaisten ohjelmiston käyttö muodostaa hyväksymisen Intelin omistusoikeuksien suhteen. Hankkija tai valmistaja on Intel Corporation, 2200 Mission College Blvd., Santa Clara, CA 95052 USA.
+
+
+NÄYTE "A"
+INTEL-OHJELMISTON KÄYTTÖOIKEUSSOPIMUS (Lopullinen, yksittäiskäyttäjä)
+
+TÄRKEÄÄ - LUE ENNEN KOPIOINTIA, ASENNUSTA TAI KÄYTTÖÄ. 
+Älä käytä tai lataa tätä ohjelmistoa tai mitään siihen liittyvää aineistoa (joihin viitataan yhteisnimellä "ohjelmisto") ennen kuin olet lukenut huolellisesti seuraavat ehdot. Lataamalla ohjelmiston tai käyttämällä sitä hyväksyt tämän sopimuksen ehdot. Jos et halua hyväksyä niitä, älä asenna tai käytä ohjelmistoa.
+
+KÄYTTÖOIKEUSSOPIMUS. Asiakas voi kopioida ohjelmiston yhdelle tietokoneelle henkilökohtaista, ei-kaupallista, käyttöä varten sekä tehdä ohjelmistosta yhden varmuuskopion seuraavilla ehdoilla: 
+1. Ohjelmistolle myönnetään käyttöoikeus vain yhdessä Intelin komponenttituotteiden kanssa. Tässä sopimuksessa ei myönnetä ohjelmistolle käyttöoikeutta muiden kuin Intelin komponenttituotteiden kanssa. 
+2. Asiakas ei saa kopioida, muuttaa, vuokrata, myydä, jakaa tai siirtää mitään ohjelmiston osaa muutoin kuin tämän sopimuksen mukaisesti ja sitoutuu estämään ohjelmiston luvattoman kopioinnin.
+3. Asiakas ei saa perusteellisesti tutkia ohjelmiston valmistustapaa eikä purkaa tai hajottaa sitä. 
+4. Asiakas ei saa myöntää käyttöoikeutta muille osapuolille tai sallia useamman kuin yhden käyttäjän käyttää ohjelmistoa samanaikaisesti.
+5. Ohjelmisto voi sisältää kolmansien osapuolten ohjelmistoa tai muuta omaisuutta, josta osalle on mahdollisesti myönnetty käyttöoikeus oheisen license.txt-tiedoston tai muun tekstin tai tiedoston muodossa. 
+
+OHJELMISTON OMISTUS- JA TEKIJÄNOIKEUDET. Omistusoikeus kaikkiin ohjelmiston kopioihin säilyy Intelillä tai sen alihankkijoilla. Yhdysvaltain ja muiden maiden lait sekä kansainväliset sopimukset suojaavat tämän ohjelmiston tekijänoikeuksia. Ohjelmistosta ei saa poistaa mitään tekijänoikeusmerkintöjä. Intel voi tehdä ohjelmistoon tai siinä viitattuihin kohteisiin muutoksia koska tahansa siitä ilmoittamatta, mutta ei ole velvollinen tukemaan tai päivittämään ohjelmistoa. Paitsi jos nimenomaan toisin todetaan, Intel ei myönnä mitään suoraa tai seuraamuksellista oikeutta Intelin patentteihin, tekijänoikeuksiin, tavaramerkkeihin tai muihin immateriaalioikeuksiin. Asiakas voi siirtää ohjelmiston vain, jos sen vastaanottaja sitoutuu täysin näihin ehtoihin eikä asiakas pidä itsellään mitään kopioita ohjelmistosta.
+
+RAJOITETTU VÄLINETAKUU. Jos Intel on toimittanut ohjelmiston fyysisellä tallennusvälineellä, Intel takaa välineen olevan vapaa olennaisista fyysisistä vioista yhdeksänkymmenen (90) päivän ajan siitä, kun Intel on sen toimittanut. Jos sellainen vika löytyy, palauta väline Intelille, jolloin Intel korvaa sen uudella tai toimittaa ohjelmiston vaihtoehtoisella tavalla Intelin harkinnan mukaan.
+
+EI MUITA TAKUITA. PAITSI MITÄ YLLÄ TODETAAN, OHJELMISTO TOIMITETAAN "SELLAISENA KUIN SE ON" ILMAN MITÄÄN SUORAAN TAI EPÄSUORAAN ILMAISTUA TAKUUTA MUKAAN LUKIEN TAKUUN SOVELTUVUUDESTA KAUPANKÄYNNIN KOHTEEKSI, OIKEUKSIEN LOUKKAAMATTOMUUDESTA TAI SOVELTUVUUDESTA JOHONKIN ERITYISEEN TARKOITUKSEEN. Intel ei myönnä tai hyväksy vastuuta minkään tämän ohjelmiston sisältämien tietojen, tekstin, grafiikan, linkkien tai muun sisällön tarkkuudesta tai täydellisyydestä.
+
+VASTUUNRAJOITUS. INTEL TAI SEN ALIHANKKIJAT EIVÄT OLE MISSÄÄN TAPAUKSESSA VASTUUSSA MISTÄÄN VAHINGOISTA (MUKAAN LUKIEN RAJOITUKSETTA MENETETYT LIIKEVOITOT, LIIKETOIMINNAN KESKEYTYMINEN TAI TIETOJEN MENETTÄMINEN), JOTKA AIHEUTUVAT OHJELMISTON KÄYTÖSTÄ TAI SEN KÄYTÖN ESTYMISESTÄ, VAIKKA INTELIÄ OLISI VAROITETTU SELLAISTEN VAHINKOJEN MAHDOLLISUUDESTA. KOSKA JOTKUT LAINKÄYTTÖALUEET EIVÄT SALLI VAHINGONKORVAUSVASTUUN POISSULKEMISTA TAI RAJOITTAMISTA EPÄSUORAN TAKUUN TAI SEURAAMUKSELLISTEN TAI SATUNNAISTEN VAHINKOJEN OSALTA, YLLÄ MAINITUT RAJOITUKSET EIVÄT KOSKE KAIKKIA ASIAKKAITA. ASIAKKAALLA VOI OLLA MYÖS MUITA LAKISÄÄTEISIÄ OIKEUKSIA, JOTKA VAIHTELEVAT LAINKÄYTTÖALUEITTAIN. 
+
+SOPIMUKSEN IRTISANOMINEN. Jos asiakas ei noudata tämän sopimuksen ehtoja, Intel voi sanoa sen irti koska tahansa. Irtisanomisen yhteydessä asiakkaan on välittömästi tuhottava ohjelmisto tai palautettava kaikki ohjelmiston kopiot Intelille.
+ 
+SOVELLETTAVAT LAIT. Tämän sopimuksen mukaiset vaateet ovat Kalifornian lain alaisia, lukuun ottamatta periaatteita ristiriitaisista laeista sekä YK:n yleissopimusta kansainvälistä tavaran kauppaa koskevista sopimuksista. Asiakas ei saa viedä ohjelmistoa sovellettavien vientilakien tai -asetusten vastaisesti. Inteliä ei velvoita mitkään muut sopimukset, paitsi jos ne ovat kirjallisia ja Intelin valtuuttaman edustajan allekirjoittamia.
+
+VIRANOMAISTEN RAJOITETUT OIKEUDET. Ohjelmisto toimitetaan "RAJOITETUILLA OIKEUKSILLA." Viranomaisten ohjelmiston käyttöä, monistusta ja julkistusta rajoittavat säädökset FAR52.227-14 ja DFAR252.227-7013 et seq. tai ne korvaavat säädökset. Viranomaisten ohjelmiston käyttö muodostaa hyväksymisen Intelin omistusoikeuksien suhteen. Hankkija tai valmistaja on Intel Corporation, 2200 Mission College Blvd., Santa Clara, CA 95052 USA.
+SLAOEMISV1/RBK/01-21-00
+

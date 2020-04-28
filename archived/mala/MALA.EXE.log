@@ -1,0 +1,1 @@
+2002/01/01  02:29:07.96   Error: Object Class: TApplication, Object Function: FormClose, Exception Class: EAccessViolation, Exception Message: Access violation at address 005F1398 in module 'MALA.EXE'. Read of address 8BD88B97

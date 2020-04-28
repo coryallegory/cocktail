@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>Game Launcher TODO</title>
+<style type="text/css">
+<!--
+OL,UL,P,BODY,TD,TR,TH,FORM,H1,H2,H3,H4,H5,H6 {
+    font-family: helvetica,verdana,arial,sans-serif;
+}
+A:visited { color: #FF0000 ; }
+A:hover { background-color: #DCDCDC ; }
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF">
+<h1 align=center>Game Launcher TODO List</h1>
+
+<h2>High Priority</h2>
+
+<p>
+<ul>
+<li> Add theme support. </li>
+<li>
+[SOURCE] Clean up destructors to do something useful, like release
+bitmaps.
+</li>
+</ul>
+</p>
+
+<h2>Medium Priority</h2>
+
+<p>
+<ul>
+<li> Add support for vertical monitors rotated right. </li>
+
+<li>
+When using a CD for background music under Windows, the default
+Windows CD player automatically launches itself and takes over the CD.
+This results in Game Launcher and the Windows CD player fighting for
+control of the CD and the CD plays when it shouldn't.  I may just
+disable CD player support if running under Windows.
+</li>
+
+</ul>
+</p>
+
+<h2>Low Priority</h2>
+
+
+<p>
+<ul>
+
+<li>
+Support real arcade monitors.  This doesn't look that likely, though.
+The Allegro graphics library does not support these graphics modes.
+Currently, I rely too heavily on the Allegro bitmap structure and
+blit() functions to move away from Allegro.  Any hints or suggestions
+(or code) to do this is welcome!
+</li>
+
+<li>
+Add GUI to configure everything.  Not real likely.  I'm a Unix geek by
+day, and I don't mind editing config files.  More likely a couple
+dialog boxes will appear to configure certain things I think would be
+good to configure without quitting.  For example, the current game's
+options.  That way you can repeatedly tweak the options for a specific
+game without quitting and starting up a text editor.
+</li>
+
+<li>[SOURCE] Get a clean compile with -pedantic.</li>
+</ul>
+</p>
+
+</body>
+</html>

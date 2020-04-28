@@ -1,0 +1,16 @@
+Attract-Mode v2.5.1 (Windows, SFML 2.5.1 +SWF +7z +Curl) 
+avcodec 57.107.100 / avformat 57.83.100 / swscale 4.8.100 / avutil 55.78.100 / swresample 2.9.100
+
+Config: C:\frontend\attract.cfg
+
+*** Initializing display: 'Mame'
+ - Loaded master romlist 'Mame' in 3 ms (48 entries kept, 0 discarded)
+ - Constructed 2 filters in 0 ms (96 comparisons)
+ - Loaded layout: C:\frontend\layouts/Verticools/ (layout.nut)
+ - Working directory: c:\mame/
+*** Running: mame DEMODERB
+ - Working directory: c:\mame/
+*** Running: mame DIGDUG
+ ! Unexpectedly lost focus to: explorer.exe (1324)
+ ! Unexpectedly lost focus to: None
+ ! Unexpectedly lost focus to: explorer.exe (1324)

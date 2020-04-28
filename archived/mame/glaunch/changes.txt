@@ -1,0 +1,103 @@
+
+                          Game Launcher Change Log
+                                      
+Version 0.9.8 - 14 May 2002
+
+     * Ported to Win32 and Unix.
+     * Created rudimentary screen saver.
+     * Added keys to restart and skip current MP3.
+     * Added pre-/post-commands that are run before/after a game is run.
+     * Added mouse (trackball and trackwheel) support.
+       
+Version 0.9.7 - 22 Nov 2001
+
+     * Added turbo scrolling to allow much faster scrolling of large
+       numbers of games.
+     * Added a debug mode to help diagnose configuration problems.
+     * Log files are backed up and rotated to aid in debugging.
+     * MP3 volume is now configurable.
+     * Fixed a number of file name comparisons that should have been case
+       insensitive.
+     * Ignore "use_extension" if a ROM file is used.
+     * [SOURCE] Changed MP3 library.
+     * [SOURCE] Changed JPEG library.
+     * [SOURCE] Upgraded Allegro library.
+     * [SOURCE] Upgraded TrueType font library.
+     * [SOURCE] Upgraded PNG and ZLIB libraries.
+       
+Version 0.9.6 - 10 Jan 2001
+
+     * Fixed crash if no joystick is detected.
+       
+Version 0.9.5 - 25 Dec 2000
+
+     * Added joystick support, thanks to Dean Bear.
+     * Added a utility to generate Game Launcher config files for MAME.
+     * No longer crashes if an invalid config is given.
+     * No longer crashes if ROM files are removed between invocations.
+       
+Version 0.9.4 - 28 Aug 2000
+
+     * Added JPEG support for screen shots.
+     * Handles long file names properly.
+     * Speed up initial loading time by as much as 15 times.
+     * Added option to control volume of sound effects.
+     * Moved saved state information out of config files and into one
+       state file.
+       
+Version 0.9.3 - 29 Jul 2000
+
+     * Added support for TrueType fonts. The font and size are fully
+       configurable.
+     * Added non-integer scaling of screen shots as an option.
+     * Made the screen resolution fully configurable.
+     * Fixed a bug in rotated configurations.
+     * Fixed a SIGSEGV when no ROMs where found.
+       
+Version 0.9.2 - 14 Jun 2000
+
+     * Support for rotated (vertical) monitors.
+     * Added an optional icon next to games with a screen shot available.
+     * Added options to control menu colors.
+     * Added options to control animation.
+     * Added more control over key repeat delays.
+     * Fixed a bug where the "use_extension" option was being ignored.
+     * Fixed a bug where "rom_extension" only worked with 1 extension.
+     * Upgraded to UPX v1.0.1.
+     * [SOURCE] Cleaned up and re-arranged just about everything.
+       
+Version 0.9.1 - 22 Feb 2000
+
+     * Made all key mappings configurable from glaunch.cfg.
+     * Fixed segfault on exit when running on slower machines with really
+       low frame rates.
+     * Added path_prefix configuration parameter in glaunch.cfg.
+     * Edited the samples to sound louder.
+     * Added HTML documentation.
+     * Updated version number to 0.9.1 as it's pretty stable and 1.0.0
+       should be close.
+     * [SOURCE] Cleaned up CD_Background class.
+       
+Version 0.0.2 - 15 Jan 2000
+
+     * First public release.
+     * Added playlist support for MP3s instead of repeating the same one.
+     * Added support to play audio CDs instead of MP3s.
+     * Changed resolution from 1024x768 to 800x600. Wells-Gardner U3100
+       doesn't do 1024x768. :( Along with this comes a whole new
+       interface that (hopefully) looks nicer.
+     * Used MAME-friendly key mappings.
+     * Game selection under each emulator is as the menu is changed and
+       is remembered between invocations.
+     * Support for PNG screen shots.
+     * Fixed segfault while searching for ROMs if a directory exists in a
+       ROM directory.
+       
+Version 0.0.1 - 15 Dec 1999
+
+     * Created config files for everything.
+     * Added more robust screen shot support.
+     * Save state information so that it can pick up where it left off
+       between invocations. This includes current game selected, current
+       emulator menu, and location in MP3 song.
+     * [SOURCE] Cleaned up Emulator class.

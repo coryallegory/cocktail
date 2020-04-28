@@ -1,0 +1,17 @@
+# Changelog #
+
+## Commits from v2.5.0 to v2.5.1
+
+### Andrew Mickelson (3 commits)
+
+* Version 2.5.1
+* Issue #499 - Fixed to show empty space when image/artwork fails to load
+* Small style updates to PR501
+
+### Radek Dutkiewicz (5 commits)
+
+* Fix for textures loosing smoothing (#506)
+* Redraw surfaces fix (#504)
+* nowide typo fix (#502)
+* Fixed SWF BlendMode
+* Fixed SWF regression on SFML 2.5.0

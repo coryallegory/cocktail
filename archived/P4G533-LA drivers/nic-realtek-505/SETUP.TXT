@@ -1,0 +1,55 @@
++====================================================================+
+| REALTEK RTL8139 serials PCI Fast Ethernet NIC Driver Setup Utility |
+|                for Windows ME/2000/XP NDIS Driver                  |
+|                           Release Note                             |
++====================================================================+
+
+How to use this RTLSetup Utility
+---------------------------------
+For Windows ME:
+
+1. If the Operating System's New Hardware Wizard prompts you that
+   "New Hardware Found" for the "PCI Ethernet Controller", you should
+   click "Next" until "Finish" is clicked and without specifying
+   location of the driver. You will see the "PCI Ethernet Controller"
+   in the Device Manager.
+
+2. Then you can install or update the NDIS driver with "setup" or
+   "setup -s" command:
+   a) setup: The InstallShield will prompt you the steps to install
+             or upgrade the driver. 
+
+   b) setup -s: The InstallShield will complete the installation or
+                upgrade without prompting you any instruction.
+
+   You need to reboot the system immediately after the Install shield 
+   completes the installation/upgrade.
+
+3. Do not click "Cancel" during New Hardware Wizard searches for the
+   driver.
+
+4. You can remove RTLSetup utility from Add/Remove Program Palette in
+   Control Panel, the InstallShield will prompt you the steps to remove
+   the driver. After remove the driver, please restart the system
+   immediately.
+
+For Windows 2000/XP:
+
+1. If the Operating System's Found New Hardware Wizard prompts you that
+   "New Hardware Found" for the "Ethernet Controller", you should click
+   "Next" until "Finish" is clicked and without specifying location of
+   the driver. You will see the "Ethernet Controller" in the Device
+   Manager.
+
+2. Then you can install or upgrade the NDIS driver with "setup" or
+   "setup -s" command:
+   a) setup: The InstallShield will prompt you the steps to install
+             or upgrade the driver. 
+
+   b) setup -s: The InstallShield will complete the installation or
+                upgrade without prompting you any instruction.
+
+3. You can remove RTLSetup utility from Add/Remove Program Palette in
+   Control Panel, the InstallShield will prompt you the steps to remove
+   the driver. After remove the driver, please restart the system
+   immediately if you want your networking to be re-installed.

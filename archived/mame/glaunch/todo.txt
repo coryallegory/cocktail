@@ -1,0 +1,33 @@
+
+                          Game Launcher TODO List
+                                      
+High Priority
+
+     * Add theme support.
+     * [SOURCE] Clean up destructors to do something useful, like release
+       bitmaps.
+       
+Medium Priority
+
+     * Add support for vertical monitors rotated right.
+     * When using a CD for background music under Windows, the default
+       Windows CD player automatically launches itself and takes over the
+       CD. This results in Game Launcher and the Windows CD player
+       fighting for control of the CD and the CD plays when it shouldn't.
+       I may just disable CD player support if running under Windows.
+       
+Low Priority
+
+     * Support real arcade monitors. This doesn't look that likely,
+       though. The Allegro graphics library does not support these
+       graphics modes. Currently, I rely too heavily on the Allegro
+       bitmap structure and blit() functions to move away from Allegro.
+       Any hints or suggestions (or code) to do this is welcome!
+     * Add GUI to configure everything. Not real likely. I'm a Unix geek
+       by day, and I don't mind editing config files. More likely a
+       couple dialog boxes will appear to configure certain things I
+       think would be good to configure without quitting. For example,
+       the current game's options. That way you can repeatedly tweak the
+       options for a specific game without quitting and starting up a
+       text editor.
+     * [SOURCE] Get a clean compile with -pedantic.

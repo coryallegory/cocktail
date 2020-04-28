@@ -1,0 +1,66 @@
+INTEL LISENSAVTALE FOR PROGRAMVARE (OEM-/IHV-/ISV-distribusjon og enkeltbruker)
+
+VIKTIG - LES DETTE FØR KOPIERING, INSTALLASJON ELLER BRUK 
+Du må ikke bruke eller laste inn denne programvaren eller noe tilknyttet materiale (samlet under begrepet "Programvaren") før du har lest nøye gjennom følgende vilkår og betingelser. Ved å laste ned eller bruke programvaren, angir du at du godtar vilkårene i denne avtalen. Hvis du ikke vil godta avtalen, må du ikke installere eller bruke programvaren.
+
+Legg også merke til følgende:
+* Hvis du er en produsent av originalutstyr (OEM - Original Equipment Manufacturer), en uavhengig maskinvareleverandør (IHV - Independent Hardware Vendor) eller en uavhengig programvareleverandør (ISV - Independent Software Vendor),gjelder denne fullstendige LISENSAVTALEN.
+* Hvis du er en sluttbruker, gjelder bare avtaletekst A, INTEL LISENSAVTALE FOR PROGRAMVARE.
+
+For OEM, IHV og ISV:
+
+LISENS. Denne programvaren er bare lisensiert for bruk sammen med komponentprodukter fra Intel. Det gis ikke herunder lisens for bruk av produktet sammen med komponentprodukter fra andre produsenter enn Intel. I henhold til vilkårene i denne avtalen, gir Intel deg en ikke-eksklusiv, ikke-overførbar, verdensomspennende, fullt betalt lisens under Intels copyright til å:
+    a) bruke, endre og kopiere programvaren til egne utviklings- og vedlikeholdsformål, og
+    b) endre, kopiere og distribuere programvaren, inkludert arbeid som er videreutviklet på grunnlag av programvaren, til sluttbrukere, men bare i henhold til en lisensavtale med minst like restriktive vilkår som i Intels endelige enkeltbrukerlisens, vedlagt som avtaletekst A, og
+    c) endre, kopiere og distribuere sluttbrukerdokumentasjonen som kan følge med programvaren, men bare i tilknytning til programvaren.
+
+Hvis du ikke er sluttprodusent eller detaljforhandler av datasystemer eller programvare som bygger på eller inneholder programvaren, kan du overføre en kopi av programvaren, inkludert arbeider som bygger på programvaren (med tilhørende sluttbrukerdokumentasjon), til mottaker for bruk i henhold til vilkårene i denne avtalen, så lenge mottakeren aksepterer å være fullt ut bundet av disse vilkårene. Du kan ikke på noen annen måte tilordne, underlisensiere, leie ut eller på annen måte overføre eller avdekke programvaren til noen tredjepart. Du kan ikke reversere og omkompilere, dekonstruere eller på annen måte tilbakekonstruere programvaren.
+
+Med de unntak som er eksplisitt uttrykt i denne avtalen, gis du ingen lisenser eller rettigheter, verken direkte eller implisitt, ved antakelse eller på annen måte. Intel har rett til å inspisere eller la en uavhengig revisor inspisere relevante protokoller for å bekrefte at du etterlever vilkårene og betingelsene i denne avtalen.
+
+KONFIDENSIALITET. Hvis du vil at en tredjepart, en konsulent eller underleverandør, ("Leverandør") skal utføre arbeid på dine vegne som omfatter tilgang til eller bruk av programvaren, skal du innhente fra leverandøren en skriftlig avtale om konfidensialitet som inneholder vilkår og forpliktelser om tilgang til eller bruk av programvaren som ikke er mindre restriktive enn dem som er fremsatt i denne avtalen, og som ikke gir rett til distribusjon eller bruk til andre formål.
+Utenom dette kan du ikke avsløre vilkårene i eller eksistensen av denne avtalen eller bruke Intels navn i publikasjoner, annonsering eller annet offentlig tilgjengelig materiale uten å ha innhentet skriftlig tillatelse fra Intel på forhånd. Du har ikke rett til å bruke Intels varemerker eller logoer.
+
+EIENDOMSRETT TIL PROGRAMVAREN OG COPYRIGHT. Intel eller deres leverandører forblir eiere av programvaren og alle kopier av den. Det er tatt ut copyright på programvaren, og den er dermed beskyttet av opphavsrettslovgivningen i USA og andre land samt internasjonale avtaler. Du kan ikke fjerne copyright-tekst fra programvaren. Intel kan gjøre endringer i programvaren eller i deler som den refererer til, når som helst og uten varsel, men er ikke forpliktet til å gi støtte for eller oppdatere programvaren. Med unntak av det som er eksplisitt angitt, gir Intel ingen uttrykte eller underforståtte rettigheter til Intels patenter, copyright, varemerker eller andre immaterielle rettigheter. Du kan bare overføre programvaren hvis mottakeren godtar å være fullstendig bundet av disse vilkårene, og hvis du ikke selv beholder noen kopier av programvaren.
+
+BEGRENSET MEDIEGARANTI. Hvis programvaren er levert av Intel på fysiske medier, garanterer Intel at mediene er frie for materielle, fysiske defekter i en periode på nitti (90) dager etter levering fra Intel. Hvis en slik defekt oppdages, skal mediene returneres til Intel for bytting eller alternativ levering av programvaren slik Intel måtte velge.
+
+UTELATELSE AV ANDRE GARANTIER. MED DE UNNTAK SOM ER ANGITT OVENFOR, LEVERES PROGRAMVAREN "SOM DEN ER", UTEN NOEN UTTRYKT ELLER UNDERFORSTÅTT GARANTI AV NOEN ART, INKLUDERT GARANTIER FOR SALGBARHET, OVERHOLDELSE ELLER EGNETHET FOR ET BESTEMT FORMÅL. Intel garanterer ikke og påtar seg ikke ansvar for nøyaktigheten eller fullstendigheten i noe informasjon, grafikk, koblinger eller andre elementer som innbefattes i programvaren.
+
+BEGRENSNING AV ERSTATNINGSANSVAR. IKKE UNDER NOEN OMSTENDIGHETER SKAL INTEL ELLER DERES LEVERANDØRER VÆRE ERSTATNINGSPLIKTIGE FOR EVENTUELLE SKADER (INKLUDERT, UTEN BEGRENSNINGER, TAPT FORTJENESTE, AVBRUDD AV FORRETNINGSDRIFT ELLER TAPT INFORMASJON) PÅ GRUNNLAG AV BRUK ELLER MANGLENDE EVNE TIL Å BRUKE PROGRAMVAREN, SELV OM INTEL ER BLITT ADVART OM MULIGHETEN FOR SLIKE SKADER. I ENKELTE JURISDIKSJONER ER DET IKKE TILLATT Å UTELATE ELLER BEGRENSE ERSTATNINGSANSVAR FOR IMPLISITTE GARANTIER ELLER TILFELDIGE SKADER, SÅ DET ER IKKE SIKKERT AT DENNE BEGRENSNINGEN GJELDER FOR DEG. DU KAN OGSÅ HA ANDRE JURIDISKE RETTIGHETER SOM VARIERER FRA JURISDIKSJON TIL JURISDIKSJON. 
+
+OPPHØR AV AVTALEN. Intel kan bringe denne avtalen til opphør når som helst hvis du bryter vilkårene i den. Ved opphør av avtalen må du umiddelbart ødelegge programvaren eller returnere alle kopier av programvaren til Intel.
+ 
+GJELDENDE LOVGIVNING. Krav som oppstår på grunnlag av denne avtalen, skal reguleres av lovgivningen i staten California, med unntak av dens prinsipper om lovkonflikter og FN-konvensjonen om kontrakter for salg av varer. Du kan ikke eksportere programvaren på en måte som medfører brudd på gjeldende lover og forordninger om eksport. Intel er ikke forpliktet i henhold til noen annen avtale med mindre de er skriftlige og underskrevet av en autorisert representant for Intel.
+
+BESKYTTEDE RETTIGHETER FOR STATEN. Programvaren er gitt "BEGRENSEDE RETTIGHETER". Bruk, kopiering eller avsløring som Staten gjør, er underlagt begrensninger som angitt i FAR52.227-14 og DFAR252.227-7013 et seq. eller deres etterfølgere. Statens bruk av programvaren utgjør en anerkjennelse av Intels rettigheter som eier av den. Leverandør eller produsent er Intel Corporation, 2200 Mission College Blvd., Santa Clara, CA 95052, USA.
+
+
+AVTALETEKST "A"
+LISENSAVTALE FOR INTEL PROGRAMVARE (Endelig, Enkeltbruker)
+
+VIKTIG - LES DETTE FØR DU KOPIERER, INSTALLERER ELLER TAR I BRUK 
+Du må ikke bruke eller laste inn denne programvaren eller noe tilknyttet materiale (samlet under begrepet "Programvaren") før du har lest nøye gjennom de følgende vilkår og betingelser. Ved å laste ned eller bruke programvaren angir du at du godtar vilkårene i denne avtalen. Hvis du ikke vil godta avtalen, må du ikke installere eller bruke programvaren.
+
+LISENS. Du kan kopiere programvaren til én enkelt datamaskin for personlig, ikke-kommersiell bruk, og du kan ta én sikkerhetskopi av programvaren under følgende betingelser: 
+1. Denne programvaren er bare lisensiert for bruk sammen med komponentprodukter fra Intel. Det gis ikke herunder lisens for bruk av produktet sammen med komponentprodukter fra andre produsenter enn Intel. 
+2. Du kan ikke kopiere, endre, leie ut, selge, distribuere eller overføre noen del av programvaren unntatt etter vilkårene i denne avtalen, og du samtykker i å hindre uautorisert kopiering av programvaren.
+3. Du kan ikke tilbakekonstruere, dekompilere eller ta fra hverandre programvaren. 
+4. Du kan ikke gi underlisenser eller tillate samtidig bruk av programvaren av flere enn én bruker.
+5. Programvaren kan inneholde programvare eller annet som tilhører tredjepartsleverandører, og dette kan være angitt i, og lisensiert i henhold til, eventuelle vedlagte filer eller tekster med navnet "License.txt" eller lignende. 
+
+EIENDOMSRETT TIL PROGRAMVAREN OG COPYRIGHT. Intel eller deres leverandører står fortsatt som eiere av programvaren og alle kopier av den. Det er tatt ut copyright på programvaren, og den er dermed beskyttet av opphavsrettsloven i USA og andre land, samt internasjonale avtaler. Du kan ikke fjerne copyright-tekst fra programvaren. Intel kan gjøre endringer i programvaren eller i deler som den refererer til, når som helst og uten varsel, men er ikke forpliktet til å gi støtte for eller oppdatere programvaren. Med unntak av det som er eksplisitt angitt, gir Intel ingen uttrykte eller underforståtte rettigheter til Intels patenter, copyright, varemerker eller andre immaterielle rettigheter. Du kan bare overføre programvaren hvis mottakeren godtar å være fullstendig bundet av disse vilkårene, og hvis du ikke selv beholder noen kopier av programvaren.
+
+BEGRENSET MEDIEGARANTI. Hvis programvaren er levert av Intel på fysiske medier, garanterer Intel at mediene er frie for materielle, fysiske defekter i en periode på nitti (90) dager etter levering fra Intel. Hvis en slik defekt oppdages, skal mediene returneres til Intel for bytting eller alternativ levering av Programvaren slik Intel velger.
+
+UTELATELSE AV ANDRE GARANTIER. MED DE UNNTAK SOM ER ANGITT OVENFOR, LEVERES PROGRAMVAREN "SOM DEN ER", UTEN NOEN UTTRYKT ELLER UNDERFORSTÅTT GARANTI AV NOEN ART, INKLUDERT GARANTIER FOR SALGBARHET, OVERHOLDELSE ELLER EGNETHET FOR ET BESTEMT FORMÅL. Intel garanterer ikke og påtar seg ikke ansvar for nøyaktigheten eller fullstendigheten i noe informasjon, grafikk, koblinger eller andre elementer som innbefattes i Programvaren.
+
+BEGRENSNING AV ERSTATNINGSANSVAR. IKKE UNDER NOEN OMSTENDIGHETER SKAL INTEL ELLER DERES LEVERANDØRER VÆRE ERSTATNINGSPLIKTIGE FOR EVENTUELLE SKADER (INKLUDERT, UTEN BEGRENSNINGER, TAPT FORTJENESTE, AVBRUDD AV FORRETNINGSDRIFT ELLER TAPT INFORMASJON) SOM RESULTAT AV BRUK ELLER MANGLENDE EVNE TIL Å BRUKE PROGRAMVAREN, SELV OM INTEL ER BLITT ADVART OM MULIGHETEN FOR SLIKE SKADER. I ENKELTE JURISDIKSJONER ER DET IKKE TILLATT Å UTELATE ELLER BEGRENSE ERSTATNINGSANSVAR FOR IMPLISITTE GARANTIER ELLER TILFELDIGE SKADER, SÅ DET ER IKKE SIKKERT AT DENNE BEGRENSNINGEN GJELDER FOR DEG. DU KAN OGSÅ HA ANDRE JURIDISKE RETTIGHETER SOM VARIERER FRA JURISDIKSJON TIL JURISDIKSJON. 
+
+AVSLUTNING AV AVTALEN. Intel kan avslutte denne avtalen når som helst hvis du bryter vilkårene i den. Ved avslutning av avtalen må du umiddelbart ødelegge programvaren eller returnere alle kopier av Programvaren til Intel.
+ 
+GJELDENDE LOVGIVNING. Krav som oppstår på grunnlag av denne avtalen, skal styres av lovgivningen i staten California, med unntak av dens prinsipper om lovkonflikter og FN-konvensjonen om kontrakter for salg av varer. Du kan ikke eksportere programvaren på en måte som medfører brudd på gjeldende lover og forordninger om eksport. Intel er ikke bundet av andre avtaler med mindre de er skriftlige og underskrevet av en autorisert representant for Intel.
+
+BESKYTTEDE RETTIGHETER FOR STATEN. Programvaren er gitt "BEGRENSEDE RETTIGHETER". Bruk, kopiering eller som Staten gjør, er underlagt begrensninger som angitt i FAR52.227-14 og DFAR252.227-7013 et seq. eller deres etterfølgere. Statens bruk av programvaren utgjør en anerkjennelse av Intels rettigheter som eier av den. Leverandør eller produsent er Intel Corporation, 2200 Mission College Blvd., Santa Clara, CA 95052, USA.
+SLAOEMISV1/RBK/01-21-00
+

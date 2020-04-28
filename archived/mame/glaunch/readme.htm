@@ -1,0 +1,429 @@
+<html>
+<head>
+<title>Game Launcher Read Me</title>
+<style type="text/css">
+<!--
+OL,UL,P,BODY,TD,TR,TH,FORM,H1,H2,H3,H4,H5,H6 {
+    font-family: helvetica,verdana,arial,sans-serif;
+}
+A:visited { color: #FF0000 ; }
+A:hover { background-color: #DCDCDC ; }
+-->
+</style>        
+</head>
+<body bgcolor="#FFFFFF">
+
+
+<h1 align=center>Game Launcher</h1>
+<p align=center> <small> Version 0.9.8 - 14 May 2002 </small>
+<br> <small> (C) 1999-2002, Dave Dribin </small> </p>
+
+<h2>What Is It</h2>
+
+<p> Game Launcher is a cross platform universal front end for
+emulators.  The main goal is to provide a user interface that is easy
+to use and attractive, yet does not look like a tradition user
+interface with windows and such.  Game Launcher should work with any
+emulator.  It has been known to work with MAME, Nesticle, RockNES,
+zSNES, snes9x, Callus, Stella, z26, and Genecyst.  Game Launcher has
+been ported to DOS, Windows, and Unix.
+</p>
+
+<h2>Who and Why</h2>
+
+<p>
+Game Launcher was written by Dave Dribin.  I wrote it because I wanted
+something a little different than existing DOS front ends.  It is
+intended for people using VGA monitors (including the <a
+href="http://www.wellsgardner.com/">Wells-Gardner</a> U3100 SVGA
+monitor) inside an arcade cabinet.  The latest version can always be
+found at <a href="http://www.dribin.org/dave/game_launcher/">
+http://www.dribin.org/dave/game_launcher/</a>.
+<p>
+<p>
+Please do not email me support questions directly.  Subscribe to the
+glaunch-public mailing list and send support questions there.  See the
+<a href="http://www.dribin.org/dave/game_launcher/">Game Launcher web
+site</a> for subscription information.
+</p>
+
+<h2>Features</h2>
+
+
+<p>
+<ul>
+<li>Very flexible.  It should run with any command line based emulator.</li>
+<li>Simple and easy to use interface.</li>
+<li>Customizable screen resolution.</li>
+<li>Customizable font.</li>
+<li>Supports rotated monitors.</li>
+<li>Plays music in the background (MP3s or an audio CD).</li>
+<li>Displays screen shots (PNG, PCX, BMP, and JPEG).</li>
+<li>Slight menu animations.</li>
+<li>Support for PC joysticks.</li>
+</ul>
+</p>
+
+<h2>Configuring Game Launcher</h2>
+
+<p>
+The <tt>glaunch.cfg</tt> file contains the global configuration
+options.  It contains a list of emulators to support and what kind of
+background music is desired.  All other configuration options are
+emulator specific and are contained in the <tt>config/</tt> directory.
+</p>
+
+<p>
+Each emulator listed in <tt>glaunch.cfg</tt> must have a corresponding
+cfg file in the <tt>config/</tt> directory.  For example, if "mame" is
+listed in <tt>glaunch.cfg</tt>, then <tt>config/mame.cfg</tt> contains
+the configuration options for MAME.
+</p>
+
+<p>
+I will beef up this section more later, but for now, please look at
+<tt>config/template.cfg</tt> and the other examples I use provided in
+the <tt>config/</tt> directory.  I've tried to make the config file
+self-documenting. :)
+</p>
+
+
+<h3>Using mamescan.exe</h3>
+
+<p>
+<tt>mamescan.exe</tt> is a command line tool that automatically
+creates a .map and .rom file for MAME by scanning the ROMs you have
+installed.  It uses the MAME executable to figure out which ROMs are
+buried inside merged ROMs.  By default, only the primary ROMs are
+included and all clones are skipped.  Individual ROMs may be included
+and excluded by using a constraint file.
+</p>
+
+<p>
+A mamescan config file, by default <tt>mamescan.cfg</tt> specifies the
+path the a MAME executable, the path to MAME ROMs, and the
+configuration file to use for Game Launcher.  The configuration file
+to use is really the base pathname of the configuration file to use.
+Two configuration files are created by mamescan.  If the base path
+name given is <tt>config/mame</tt>, then the files created are
+<tt>config/mame.map</tt> and <tt>config/mame.rom</tt>.  This path may
+be relative or absolute.
+</p>
+
+<p>
+You can force the inclusion and exclusion of individual ROMs in the
+configuration file if you want to override the default choices.  In
+the constraint section of the config file, any line beginning with a
+'+' forces inclusion and any line beginning with a '-' forces
+exclusion.  For example, the <tt>pacman.zip</tt> file contains the
+games <tt>pacman</tt> (the Namco version) and <tt>pacmanm</tt> (the
+Midway version).  The "primary" ROM is <tt>pacman</tt> and the clone
+is <tt>pacmanm</tt>, so mamescan will include <tt>pacman</tt> and
+exclude <tt>pacmanm</tt>.  Say you do not want to include
+<tt>pacman</tt>, but want to include <tt>pacmanm</tt>.  You can add
+the following lines to the constraint section of the configuration
+file:
+</p>
+
+<pre>
+-pacman
++pacmanm
+</pre>
+
+<h3>Configuring Screen Resolution</h3>
+
+<p>
+Any resolution available by your DOS VESA driver should be available
+to use.  If the chosen resolution is not available, Game Launcher will
+not run.  Not all resolutions look that good, though, especially
+depending on the menu orientation.  For horizontal orientation, I
+would recommend either 800x600 or 400x300.  800x600 looks <b>much</b>
+nicer because the anti-aliasing of the fonts is much less noticeable.
+For vertical orientation, I would recommend either 640x480 or 320x240.
+640x480 looks nicer again because of the anti-aliasing.
+<p>
+
+</p>
+Also higher resolutions may result in slower animations.  This can be
+caused by running out of VRAM or processing power.  The lack of VRAM
+causes slower animation because Game Launcher will use VRAM if your
+video card supports hardware acceleration.  If you're curious if VRAM
+is being used, check the log file.  If your video driver does not
+support hardware acceleration, then VRAM will not be used under any
+circumstances.
+</p>
+
+<h3>Configuring Fonts</h3>
+
+<p>
+Any TrueType font is supported, although very thin and/or small fonts
+may show some pink spots.  The font size is fully customizable by
+choosing the point size.  An appropriate size is mostly personal
+preference.  I prefer an 18 point font in horizontal orientation at a
+resolution of 800x600 or vertical orientation at 640x480, but smaller
+fonts look OK, too.  For smaller resolutions, I prefer a 10 point font
+for horizontal orientation at 400x300 or vertical orientation at
+320x240.  You really cannot go any smaller than 8 point without the
+font looking terrible.  Any larger than 10 point results in only a few
+menu items to fit on the screen.  10 points seems like a nice
+compromise.
+</p>
+
+<h3>Configuring Screen Shots</h3>
+
+<p>
+The first configuration parameter of the screen shot is the delay to
+wait before displaying the screen shot.  This helps speed up the
+scrolling by not displaying every screen shot right away.  Of course
+you can make this as low as you want (even zero) if you like.
+</p>
+
+<p>
+The brightness of the screen shot is also configurable.  If the screen
+shot is too bright, then the menu text is hard to read.  If the screen
+shot is too dim, then it can barely be seen.  Tweak this parameter to
+your tastes.
+</p>
+
+<p>
+Finally, how the screen shot is scaled is also configurable.  The
+screen shot is always scaled to the largest possible size, otherwise
+it could be very tiny.  Since screen shots are rarely an exact
+multiple of the screen resolution, the scaling factor of the screen
+shot may be non-integer number.  When a screen shot is scaled by a
+non-integer, it will get distorted.  Because I don't like the
+distortion, there is an option to prefer integer scaling factors over
+non-integer factors.  If the screen shot needs to be shrunk, then
+non-integer scaling factors will be used since distortion is bound to
+happen anyways.  If the distortion doesn't bother you, then turn of
+integer scaling all the time.  You will get screen shots with a better
+fit at the cost of distortion.  The choice is up to you.
+</p>
+
+<h3>Key Mappings</h3>
+
+<p>
+The following table summarizes the default key mapping:
+</p>
+
+<table>
+<tr><td> UP, DOWN </td>
+  <td> Move the game selection up/down one game. </td>
+</tr>
+<tr><td> RIGHT, LEFT </td>
+  <td> Move the game selection up/down one screen, like page up and
+page down. </td>
+</tr>
+<tr><td> 1 </td> <td> Play selected game. </td></tr>
+<tr><td> LEFT CONTROL </td> <td> Go to next emulator. </td></tr>
+<tr><td> LEFT ALT </td> <td> Go to previous emulator. </td></tr>
+<tr><td> ESC </td> <td> Exit Game Launcher. </td></tr>
+<tr><td> SPACE </td>
+  <td> Displays the screen shot.  Press again to get back to menu. </td>
+</tr>
+<tr><td> G </td> <td> Skip to next MP3. </td></tr>
+<tr><td> D </td> <td> Restart current MP3. </td></tr>
+</table>
+
+<p>
+All key mappings are configurable in <tt>glaunch.cfg</tt>.
+</p>
+
+
+<h3>Launching Arbitrary Programs</h3>
+
+<p>
+Emulators are not the only program that Game Launcher can run.  Any
+arbitrary program can be launched.  I've included one technique to do
+this with the "Misc" menu.  The "Misc" menu scans the <tt>/misc/</tt>
+directory for any batch files.  These batch files are added to the
+menu and run when launched.  You can create batch files to launch any
+command line program.  I have used this to run Doom, Quake, and the
+QuickView video program.  Please see the <tt>misc.cfg</tt> and
+<tt>misc.map</tt> files for more information.
+</p>
+
+<h2>Running Game Launcher</h2>
+
+<p>
+After configuring Game Launcher, type "glaunch" to run it.  There are
+no command line options.  If the configuration is setup correctly, you
+will get a list of games to choose from.  You may move up or down one
+game at a time or one page at a time.  You may also switch emulators
+in which case a new selection of games will be presented.  A small
+icon will appear to the right of the names of games that have a screen
+shot available.  The icon may be turned off in the global
+configuration file.
+</p>
+
+<h3> Troubleshooting</h3>
+
+<p>
+There are a number of avenues to pursue if you have problems getting
+Game Launcher to do what you want.  The first thing you should do is
+turn on debug mode by changing the <tt>debug</tt> parameter in
+<tt>glaunch.cfg</tt>.  This allows you to see exactly what commands
+are being run and the output of the commands.  It is invaluable to
+help you narrow down configuration issues.
+</p>
+
+<p>
+A number of log files are also generated in the <tt>log/</tt>
+directory.  The <tt>glaunch.log</tt> file contains various information
+and error messages.  You may sometimes find helpful information in
+here when things go wrong.  The <tt>runit.log</tt> file contains the
+output of the last emulator launched.  If an emulator does not run as
+expected, an error message may be available in this file.  Both of
+these log files are rotated so that the 6 newest copies are kept
+around.
+</p>
+
+<p>
+If you still are having problems, join the glaunch-public mailing list
+and ask questions there.  Always provide as much information as
+possible when soliciting help, such as which version of Game Launcher
+you are using, which operating system you are using, and anything else
+that may be pertinent (sound cards, video cards, etc.).  Attaching the
+<tt>glaunch.log</tt> file can also provide good background information
+to people willing to help.  For information on how to subscribe to the
+mailing list, please see the <a
+href="http://www.dribin.org/dave/game_launcher/">Game Launcher web
+site</a>.
+</p>
+
+<h3>The State File</h3>
+
+<p>
+The file <tt>glaunch.sta</tt> contains state information that needs to
+be preserved between invocations.  Do not edit this file as the data
+is internal to Game Launcher.  You may safely delete this file without
+affecting any of your configuration files.
+</p>
+
+<h2>Compiling</h2>
+
+<p>
+The Game Launcher source code is released under the <a
+href="http://www.gnu.org/">GNU</a> General Public License.  In
+interest of reuse, it requires a number of tools and libraries in
+order to compile.  All of them are freely available.
+</p>
+
+<p> Tools for DOS: </p>
+
+<p>
+<ul>
+<li>
+<a href="http://www.delorie.com/djgpp/">DJGPP v2.x</a>: A GCC port to
+DOS.  Do not use GCC 3.x as there are still a number of bugs.
+</li>
+<li>
+Various <a
+href="ftp://ftp.simtel.net/pub/simtelnet/gnu/djgpp/v2gnu/">GNU tools
+ported to DOS</a> (make, fileutils).
+</li>
+<li>
+<a href="http://www.web-sites.co.uk/nasm/">NASM (Netwide Assembler)
+v0.98+</a>: A 16-bit assembler.
+</li>
+<li>
+<a
+href="ftp://ftp.simtel.net/pub/simtelnet/msdos/pgmutl/val_link.zip">VAL</a>:
+A 16-bit linker.
+</li>
+<li>
+<a href="http://upx.sourceforge.net/">UPX</a>: An executable compressor.
+</li>
+<li>
+<a href="http://www.fdisk.com/doslynx/lynxport.htm">Lynx</a>: A DOS
+port of the text only browser.  It is used to convert HTML files to
+text files.
+</li>
+</ul>
+</p>
+
+<p> Tools for Windows: </p>
+
+<p>
+<ul>
+<li>
+<a href="http://www.mingw.org/">MinGW</a>: A GCC port to Windows.
+</li>
+<li>
+<a href="http://www.cygwin.com/">Cygwin</a>: Unix utilities ported to
+Windows.  You will need the fileutils, lynx, and upx packages.  Do
+<b>not</b> get GCC or binutils!
+</li>
+</ul>
+</p>
+
+<p> Tools for Unix: </p>
+
+<p>
+<ul>
+<li>
+<a href="http://gcc.gnu.org/">GCC</a>: Theu GNU C/C++ compiler.
+</li>
+<li>
+<a href="http://lynx.browser.org/">Lynx</a>: A text only browser.
+</li>
+</ul>
+</p>
+
+<p>
+Libraries needed:
+</p>
+
+<p>
+<ul>
+<li>
+<a href="http://alleg.sourceforge.net/">Allegro 4.0.x</a>: A
+multi-platform graphics programming library.
+</li>
+<li>
+<a href="http://www.alphalink.com.au/~tjaden/loadpng/">loadpng
+v0.9+</a>: A PNG extension to Allegro, requires libpng and Allegro.
+</li>
+<li>
+<a href="http://freeshell.org/~nekros/delirium/almp3.html">AllegroMP3
+v1.6+</a>: An MP3 library, requires Allegro.
+</li>
+<li> <a
+href="http://www.lwithers.demon.co.uk/djgpp/bcd/">libbcd</a>: A
+library to interface to MSCDEX, the CD driver (DOS only).
+</li>
+<li>
+<a href="http://www.libpng.org/pub/png/libpng.html">libpng</a>: A
+portable PNG library, requires zlib.
+</li>
+<li>
+<a href="http://www.zlib.org/">zlib</a>: A portable compression
+library.
+</li>
+<li>
+<a href="http://huizen.dds.nl/~deleveld/allegttf.htm">AllegTTF
+v2.0+</a>: A TrueType font renderer for Allegro.  It includes code
+from the <a href="http://www.freetype.org/">FreeType</a> project.
+</li>
+<li>
+<a href="http://orbflux.com/jpgalleg/">JPGAlleg v1.1</a>: A JPEG
+loader for Allegro.
+</li>
+<li>
+<a
+href="http://www.dribin.org/dave/game_launcher/jpgal11b.zip">jpgal11b.zip</a>:
+A patch to JPGAlleg v1.1 for modifications needed specifically for
+Game Launcher.
+</li>
+</ul>
+</p>
+
+<p>
+Once you have all the tools and libraries installed, unzip the source
+code, edit <tt>common.mk</tt> to match your system, and type "make".
+If you plan on doing any real development, you should run "make
+depend" first to give you accurate dependency checking.
+</p>
+
+</body>
+</html>
