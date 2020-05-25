@@ -66,3 +66,11 @@ startx
 put startx command in
 /etc/rc.local
 to run at boot time
+
+
+
+sudo apt-get install unzip
+
+roms go into ~/mame/roms/
+global config /etc/mame/mame.ini
+user config ~/.mame/mame.ini
