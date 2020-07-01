@@ -12,7 +12,7 @@
     - user/password: player/play
 
 1. Enable SSH if not done during install
-  - sudo apt-get install openssh-server
+  - sudo apt-get install -y openssh-server
   - sudo ufw allow ssh
 
 1. Install Mame
@@ -20,14 +20,30 @@
   - https://github.com/mamedev/mame
   - 
   - sudo apt-get update
-  - sudo apt-get install mame -y
+  - sudo apt-get install -y mame
 
 1. Install Attract front end
   - http://attractmode.org/
   - 
   - sudo add-apt-repository ppa:daveg/attract
   - sudo apt-get update
-  - sudo apt-get install attract
+  - sudo apt-get install -y attract
+
+1. Install curl
+apt-get install -y curl
+
+
+1. Configure mame
+/etc/mame/mame.ini
+
+mkdir -p ~/mame/roms
+curl -O https://raw.githubusercontent.com/coryallegory/cocktail/master/archived/mame/roms.zip
+
+unzip roms.zip -d ~/mame/
+rm roms.zip
+
+
+
 
 
 sudo apt-get install git
