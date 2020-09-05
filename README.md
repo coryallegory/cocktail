@@ -15,6 +15,12 @@
   - sudo apt-get install -y openssh-server
   - sudo ufw allow ssh
 
+1. Set up autologin
+
+sudo vim /etc/lightdm/lightdm.conf
+add line for
+user-session=Lubuntu
+
 1. Install Mame
   - https://www.mamedev.org/
   - https://github.com/mamedev/mame
@@ -43,6 +49,15 @@ unzip roms.zip -d ~/mame/
 rm roms.zip
 
 
+1. Configure Attractmode
+
+
+
+
+
+
+vnc setup
+https://www.jasonheckman.com/arcade/installing-linux-for-mame-emulation/
 
 
 
